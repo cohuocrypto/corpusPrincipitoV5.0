@@ -1,0 +1,31 @@
+{
+  "version": "v4_0_phase11",
+  "created_at_utc": "2026-06-02T18:10:19.508346+00:00",
+  "description": "Corpus multilingüe enriquecido con metadatos narrativos, constructos afectivos, variables sociotécnicas, embeddings y clusters semánticos.",
+  "files": {
+    "chapters.parquet": {
+      "sha256": "4bda4ecaffa191ef3bd78bd26e34de33342a0bad7f67a52b1bcd539e0b53faaa",
+      "bytes": 290619
+    },
+    "dialogues_base.parquet": {
+      "sha256": "3f90a3e040e1885591bdfb1032820aad880544eeab92b7ba95fed0df7732eac2",
+      "bytes": 97522
+    },
+    "dialogues_metadata.parquet": {
+      "sha256": "9be86d1c7d3f44524ff2cdbe00424e5d688609eb4c3a675a3fcdec1d6e7e27e0",
+      "bytes": 105197
+    },
+    "dialogues_analytic_matrix.parquet": {
+      "sha256": "9bab38063f4d7b53416b63f7e8baf0d9ca3b2e1af49da3091692679c355a1028",
+      "bytes": 3705975
+    },
+    "dialogue_embeddings.npy": {
+      "sha256": "959bffe67d492b5a6d59570e6215bc91003ea445654ea535a75d57406515dbbe",
+      "bytes": 2156672
+    },
+    "phase11_validation_report.json": {
+      "sha256": "07001cd7354be186f3958c5d3d6439d8607a3cd63b7d156e22e9294421a374fe",
+      "bytes": 1524
+    }
+  }
+}

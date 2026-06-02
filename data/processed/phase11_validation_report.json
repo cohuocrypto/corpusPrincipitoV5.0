@@ -1,0 +1,83 @@
+{
+  "phase": "Fase 11 - Enriquecimiento de Metadatos Narrativos y Variables Sociotécnicas",
+  "rows": 1404,
+  "columns": [
+    "record_id",
+    "language",
+    "chapter_id",
+    "chapter_title",
+    "dialogue",
+    "length_chars",
+    "length_words",
+    "dialogue_id",
+    "character",
+    "emotion",
+    "polarity",
+    "constructs",
+    "primary_construct",
+    "sociotechnical_variable",
+    "semantic_cluster",
+    "embedding"
+  ],
+  "required_columns": [
+    "dialogue_id",
+    "language",
+    "chapter_id",
+    "character",
+    "emotion",
+    "polarity",
+    "semantic_cluster",
+    "embedding",
+    "primary_construct",
+    "sociotechnical_variable"
+  ],
+  "missing_columns": [],
+  "status": "PASS",
+  "null_counts_required": {
+    "dialogue_id": 0,
+    "language": 0,
+    "chapter_id": 0,
+    "character": 0,
+    "emotion": 0,
+    "polarity": 0,
+    "semantic_cluster": 0,
+    "embedding": 0,
+    "primary_construct": 0,
+    "sociotechnical_variable": 0
+  },
+  "character_distribution": {
+    "narrator": 546,
+    "unknown": 462,
+    "little_prince": 225,
+    "king": 35,
+    "rose": 34,
+    "geographer": 27,
+    "fox": 26,
+    "snake": 13,
+    "lamplighter": 11,
+    "drinker": 9,
+    "switchman": 8,
+    "businessman": 3,
+    "conceited_man": 3,
+    "merchant": 2
+  },
+  "emotion_distribution": {
+    "neutral": 1207,
+    "curiosity": 53,
+    "sadness": 41,
+    "anger": 29,
+    "love": 29,
+    "joy": 26,
+    "fear": 19
+  },
+  "semantic_clusters": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7
+  ]
+}

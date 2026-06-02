@@ -1,0 +1,13 @@
+chardet
+pandas
+numpy
+scikit-learn
+sentence-transformers
+rapidfuzz
+unidecode
+spacy
+pyarrow
+networkx
+matplotlib
+textblob
+vaderSentiment

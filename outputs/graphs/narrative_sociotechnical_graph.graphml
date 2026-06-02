@@ -1,0 +1,855 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd"><key id="d2" for="edge" attr.name="weight" attr.type="long"/>
+<key id="d1" for="edge" attr.name="relation" attr.type="string"/>
+<key id="d0" for="node" attr.name="type" attr.type="string"/>
+<graph edgedefault="undirected"><node id="character:narrator">
+  <data key="d0">character</data>
+</node>
+<node id="emotion:neutral">
+  <data key="d0">emotion</data>
+</node>
+<node id="construct:Unclassified">
+  <data key="d0">construct</data>
+</node>
+<node id="sociotech:Unclassified">
+  <data key="d0">sociotechnical</data>
+</node>
+<node id="cluster:3">
+  <data key="d0">semantic_cluster</data>
+</node>
+<node id="character:unknown">
+  <data key="d0">character</data>
+</node>
+<node id="cluster:6">
+  <data key="d0">semantic_cluster</data>
+</node>
+<node id="cluster:0">
+  <data key="d0">semantic_cluster</data>
+</node>
+<node id="emotion:fear">
+  <data key="d0">emotion</data>
+</node>
+<node id="cluster:1">
+  <data key="d0">semantic_cluster</data>
+</node>
+<node id="cluster:5">
+  <data key="d0">semantic_cluster</data>
+</node>
+<node id="character:little_prince">
+  <data key="d0">character</data>
+</node>
+<node id="cluster:2">
+  <data key="d0">semantic_cluster</data>
+</node>
+<node id="character:king">
+  <data key="d0">character</data>
+</node>
+<node id="construct:Quality">
+  <data key="d0">construct</data>
+</node>
+<node id="sociotech:Craftsmanship">
+  <data key="d0">sociotechnical</data>
+</node>
+<node id="cluster:7">
+  <data key="d0">semantic_cluster</data>
+</node>
+<node id="emotion:curiosity">
+  <data key="d0">emotion</data>
+</node>
+<node id="construct:Understanding">
+  <data key="d0">construct</data>
+</node>
+<node id="sociotech:Empathy">
+  <data key="d0">sociotechnical</data>
+</node>
+<node id="emotion:joy">
+  <data key="d0">emotion</data>
+</node>
+<node id="construct:Meaning">
+  <data key="d0">construct</data>
+</node>
+<node id="sociotech:Purpose">
+  <data key="d0">sociotechnical</data>
+</node>
+<node id="construct:Ritual">
+  <data key="d0">construct</data>
+</node>
+<node id="sociotech:Process Awareness">
+  <data key="d0">sociotechnical</data>
+</node>
+<node id="construct:Productivism">
+  <data key="d0">construct</data>
+</node>
+<node id="sociotech:Burnout Risk">
+  <data key="d0">sociotechnical</data>
+</node>
+<node id="emotion:sadness">
+  <data key="d0">emotion</data>
+</node>
+<node id="character:rose">
+  <data key="d0">character</data>
+</node>
+<node id="construct:Iteration">
+  <data key="d0">construct</data>
+</node>
+<node id="sociotech:Adaptability">
+  <data key="d0">sociotechnical</data>
+</node>
+<node id="emotion:anger">
+  <data key="d0">emotion</data>
+</node>
+<node id="construct:Automation">
+  <data key="d0">construct</data>
+</node>
+<node id="construct:Theory">
+  <data key="d0">construct</data>
+</node>
+<node id="sociotech:Continuous Learning">
+  <data key="d0">sociotechnical</data>
+</node>
+<node id="character:drinker">
+  <data key="d0">character</data>
+</node>
+<node id="character:businessman">
+  <data key="d0">character</data>
+</node>
+<node id="construct:Sustainability">
+  <data key="d0">construct</data>
+</node>
+<node id="sociotech:Sustainable Pace">
+  <data key="d0">sociotechnical</data>
+</node>
+<node id="character:geographer">
+  <data key="d0">character</data>
+</node>
+<node id="cluster:4">
+  <data key="d0">semantic_cluster</data>
+</node>
+<node id="character:snake">
+  <data key="d0">character</data>
+</node>
+<node id="emotion:love">
+  <data key="d0">emotion</data>
+</node>
+<node id="construct:Trust Bond">
+  <data key="d0">construct</data>
+</node>
+<node id="sociotech:Team Cohesion">
+  <data key="d0">sociotechnical</data>
+</node>
+<node id="character:fox">
+  <data key="d0">character</data>
+</node>
+<node id="construct:Responsibility">
+  <data key="d0">construct</data>
+</node>
+<node id="sociotech:Accountability">
+  <data key="d0">sociotechnical</data>
+</node>
+<node id="character:switchman">
+  <data key="d0">character</data>
+</node>
+<node id="construct:Hidden Value">
+  <data key="d0">construct</data>
+</node>
+<node id="sociotech:Value Perception">
+  <data key="d0">sociotechnical</data>
+</node>
+<node id="character:conceited_man">
+  <data key="d0">character</data>
+</node>
+<node id="character:lamplighter">
+  <data key="d0">character</data>
+</node>
+<node id="character:merchant">
+  <data key="d0">character</data>
+</node>
+<edge source="character:narrator" target="emotion:neutral">
+  <data key="d1">expresses</data>
+  <data key="d2">443</data>
+</edge>
+<edge source="character:narrator" target="construct:Unclassified">
+  <data key="d1">evokes_construct</data>
+  <data key="d2">391</data>
+</edge>
+<edge source="character:narrator" target="cluster:3">
+  <data key="d1">belongs_to_cluster</data>
+  <data key="d2">196</data>
+</edge>
+<edge source="character:narrator" target="cluster:0">
+  <data key="d1">belongs_to_cluster</data>
+  <data key="d2">71</data>
+</edge>
+<edge source="character:narrator" target="emotion:fear">
+  <data key="d1">expresses</data>
+  <data key="d2">14</data>
+</edge>
+<edge source="character:narrator" target="cluster:1">
+  <data key="d1">belongs_to_cluster</data>
+  <data key="d2">58</data>
+</edge>
+<edge source="character:narrator" target="construct:Quality">
+  <data key="d1">evokes_construct</data>
+  <data key="d2">15</data>
+</edge>
+<edge source="character:narrator" target="cluster:7">
+  <data key="d1">belongs_to_cluster</data>
+  <data key="d2">69</data>
+</edge>
+<edge source="character:narrator" target="cluster:5">
+  <data key="d1">belongs_to_cluster</data>
+  <data key="d2">69</data>
+</edge>
+<edge source="character:narrator" target="emotion:curiosity">
+  <data key="d1">expresses</data>
+  <data key="d2">15</data>
+</edge>
+<edge source="character:narrator" target="construct:Understanding">
+  <data key="d1">evokes_construct</data>
+  <data key="d2">6</data>
+</edge>
+<edge source="character:narrator" target="emotion:joy">
+  <data key="d1">expresses</data>
+  <data key="d2">19</data>
+</edge>
+<edge source="character:narrator" target="cluster:2">
+  <data key="d1">belongs_to_cluster</data>
+  <data key="d2">55</data>
+</edge>
+<edge source="character:narrator" target="construct:Ritual">
+  <data key="d1">evokes_construct</data>
+  <data key="d2">16</data>
+</edge>
+<edge source="character:narrator" target="construct:Productivism">
+  <data key="d1">evokes_construct</data>
+  <data key="d2">20</data>
+</edge>
+<edge source="character:narrator" target="construct:Automation">
+  <data key="d1">evokes_construct</data>
+  <data key="d2">16</data>
+</edge>
+<edge source="character:narrator" target="construct:Theory">
+  <data key="d1">evokes_construct</data>
+  <data key="d2">4</data>
+</edge>
+<edge source="character:narrator" target="construct:Sustainability">
+  <data key="d1">evokes_construct</data>
+  <data key="d2">15</data>
+</edge>
+<edge source="character:narrator" target="cluster:6">
+  <data key="d1">belongs_to_cluster</data>
+  <data key="d2">14</data>
+</edge>
+<edge source="character:narrator" target="cluster:4">
+  <data key="d1">belongs_to_cluster</data>
+  <data key="d2">14</data>
+</edge>
+<edge source="character:narrator" target="construct:Iteration">
+  <data key="d1">evokes_construct</data>
+  <data key="d2">15</data>
+</edge>
+<edge source="character:narrator" target="emotion:love">
+  <data key="d1">expresses</data>
+  <data key="d2">18</data>
+</edge>
+<edge source="character:narrator" target="construct:Trust Bond">
+  <data key="d1">evokes_construct</data>
+  <data key="d2">39</data>
+</edge>
+<edge source="character:narrator" target="emotion:sadness">
+  <data key="d1">expresses</data>
+  <data key="d2">19</data>
+</edge>
+<edge source="character:narrator" target="construct:Responsibility">
+  <data key="d1">evokes_construct</data>
+  <data key="d2">5</data>
+</edge>
+<edge source="character:narrator" target="emotion:anger">
+  <data key="d1">expresses</data>
+  <data key="d2">18</data>
+</edge>
+<edge source="character:narrator" target="construct:Hidden Value">
+  <data key="d1">evokes_construct</data>
+  <data key="d2">2</data>
+</edge>
+<edge source="character:narrator" target="construct:Meaning">
+  <data key="d1">evokes_construct</data>
+  <data key="d2">2</data>
+</edge>
+<edge source="emotion:neutral" target="character:unknown">
+  <data key="d1">expresses</data>
+  <data key="d2">430</data>
+</edge>
+<edge source="emotion:neutral" target="character:little_prince">
+  <data key="d1">expresses</data>
+  <data key="d2">175</data>
+</edge>
+<edge source="emotion:neutral" target="character:king">
+  <data key="d1">expresses</data>
+  <data key="d2">34</data>
+</edge>
+<edge source="emotion:neutral" target="character:rose">
+  <data key="d1">expresses</data>
+  <data key="d2">31</data>
+</edge>
+<edge source="emotion:neutral" target="character:drinker">
+  <data key="d1">expresses</data>
+  <data key="d2">9</data>
+</edge>
+<edge source="emotion:neutral" target="character:businessman">
+  <data key="d1">expresses</data>
+  <data key="d2">3</data>
+</edge>
+<edge source="emotion:neutral" target="character:geographer">
+  <data key="d1">expresses</data>
+  <data key="d2">24</data>
+</edge>
+<edge source="emotion:neutral" target="character:snake">
+  <data key="d1">expresses</data>
+  <data key="d2">13</data>
+</edge>
+<edge source="emotion:neutral" target="character:fox">
+  <data key="d1">expresses</data>
+  <data key="d2">24</data>
+</edge>
+<edge source="emotion:neutral" target="character:switchman">
+  <data key="d1">expresses</data>
+  <data key="d2">6</data>
+</edge>
+<edge source="emotion:neutral" target="character:conceited_man">
+  <data key="d1">expresses</data>
+  <data key="d2">3</data>
+</edge>
+<edge source="emotion:neutral" target="character:lamplighter">
+  <data key="d1">expresses</data>
+  <data key="d2">10</data>
+</edge>
+<edge source="emotion:neutral" target="character:merchant">
+  <data key="d1">expresses</data>
+  <data key="d2">2</data>
+</edge>
+<edge source="construct:Unclassified" target="sociotech:Unclassified">
+  <data key="d1">maps_to_sociotechnical</data>
+  <data key="d2">1104</data>
+</edge>
+<edge source="construct:Unclassified" target="character:unknown">
+  <data key="d1">evokes_construct</data>
+  <data key="d2">405</data>
+</edge>
+<edge source="construct:Unclassified" target="character:little_prince">
+  <data key="d1">evokes_construct</data>
+  <data key="d2">178</data>
+</edge>
+<edge source="construct:Unclassified" target="character:king">
+  <data key="d1">evokes_construct</data>
+  <data key="d2">30</data>
+</edge>
+<edge source="construct:Unclassified" target="character:rose">
+  <data key="d1">evokes_construct</data>
+  <data key="d2">26</data>
+</edge>
+<edge source="construct:Unclassified" target="character:drinker">
+  <data key="d1">evokes_construct</data>
+  <data key="d2">9</data>
+</edge>
+<edge source="construct:Unclassified" target="character:snake">
+  <data key="d1">evokes_construct</data>
+  <data key="d2">12</data>
+</edge>
+<edge source="construct:Unclassified" target="character:fox">
+  <data key="d1">evokes_construct</data>
+  <data key="d2">26</data>
+</edge>
+<edge source="construct:Unclassified" target="character:switchman">
+  <data key="d1">evokes_construct</data>
+  <data key="d2">8</data>
+</edge>
+<edge source="construct:Unclassified" target="character:conceited_man">
+  <data key="d1">evokes_construct</data>
+  <data key="d2">3</data>
+</edge>
+<edge source="construct:Unclassified" target="character:lamplighter">
+  <data key="d1">evokes_construct</data>
+  <data key="d2">9</data>
+</edge>
+<edge source="construct:Unclassified" target="character:merchant">
+  <data key="d1">evokes_construct</data>
+  <data key="d2">2</data>
+</edge>
+<edge source="construct:Unclassified" target="character:geographer">
+  <data key="d1">evokes_construct</data>
+  <data key="d2">5</data>
+</edge>
+<edge source="cluster:3" target="character:unknown">
+  <data key="d1">belongs_to_cluster</data>
+  <data key="d2">96</data>
+</edge>
+<edge source="cluster:3" target="character:little_prince">
+  <data key="d1">belongs_to_cluster</data>
+  <data key="d2">7</data>
+</edge>
+<edge source="cluster:3" target="character:lamplighter">
+  <data key="d1">belongs_to_cluster</data>
+  <data key="d2">1</data>
+</edge>
+<edge source="cluster:3" target="character:fox">
+  <data key="d1">belongs_to_cluster</data>
+  <data key="d2">4</data>
+</edge>
+<edge source="cluster:3" target="character:king">
+  <data key="d1">belongs_to_cluster</data>
+  <data key="d2">3</data>
+</edge>
+<edge source="cluster:3" target="character:conceited_man">
+  <data key="d1">belongs_to_cluster</data>
+  <data key="d2">1</data>
+</edge>
+<edge source="cluster:3" target="character:snake">
+  <data key="d1">belongs_to_cluster</data>
+  <data key="d2">1</data>
+</edge>
+<edge source="cluster:3" target="character:switchman">
+  <data key="d1">belongs_to_cluster</data>
+  <data key="d2">1</data>
+</edge>
+<edge source="character:unknown" target="cluster:6">
+  <data key="d1">belongs_to_cluster</data>
+  <data key="d2">96</data>
+</edge>
+<edge source="character:unknown" target="cluster:0">
+  <data key="d1">belongs_to_cluster</data>
+  <data key="d2">112</data>
+</edge>
+<edge source="character:unknown" target="cluster:1">
+  <data key="d1">belongs_to_cluster</data>
+  <data key="d2">56</data>
+</edge>
+<edge source="character:unknown" target="cluster:5">
+  <data key="d1">belongs_to_cluster</data>
+  <data key="d2">69</data>
+</edge>
+<edge source="character:unknown" target="emotion:curiosity">
+  <data key="d1">expresses</data>
+  <data key="d2">11</data>
+</edge>
+<edge source="character:unknown" target="emotion:sadness">
+  <data key="d1">expresses</data>
+  <data key="d2">9</data>
+</edge>
+<edge source="character:unknown" target="construct:Productivism">
+  <data key="d1">evokes_construct</data>
+  <data key="d2">6</data>
+</edge>
+<edge source="character:unknown" target="cluster:7">
+  <data key="d1">belongs_to_cluster</data>
+  <data key="d2">15</data>
+</edge>
+<edge source="character:unknown" target="emotion:anger">
+  <data key="d1">expresses</data>
+  <data key="d2">4</data>
+</edge>
+<edge source="character:unknown" target="construct:Quality">
+  <data key="d1">evokes_construct</data>
+  <data key="d2">6</data>
+</edge>
+<edge source="character:unknown" target="construct:Iteration">
+  <data key="d1">evokes_construct</data>
+  <data key="d2">6</data>
+</edge>
+<edge source="character:unknown" target="construct:Understanding">
+  <data key="d1">evokes_construct</data>
+  <data key="d2">2</data>
+</edge>
+<edge source="character:unknown" target="construct:Automation">
+  <data key="d1">evokes_construct</data>
+  <data key="d2">13</data>
+</edge>
+<edge source="character:unknown" target="cluster:2">
+  <data key="d1">belongs_to_cluster</data>
+  <data key="d2">1</data>
+</edge>
+<edge source="character:unknown" target="construct:Sustainability">
+  <data key="d1">evokes_construct</data>
+  <data key="d2">6</data>
+</edge>
+<edge source="character:unknown" target="cluster:4">
+  <data key="d1">belongs_to_cluster</data>
+  <data key="d2">17</data>
+</edge>
+<edge source="character:unknown" target="construct:Ritual">
+  <data key="d1">evokes_construct</data>
+  <data key="d2">2</data>
+</edge>
+<edge source="character:unknown" target="construct:Meaning">
+  <data key="d1">evokes_construct</data>
+  <data key="d2">5</data>
+</edge>
+<edge source="character:unknown" target="construct:Hidden Value">
+  <data key="d1">evokes_construct</data>
+  <data key="d2">4</data>
+</edge>
+<edge source="character:unknown" target="emotion:love">
+  <data key="d1">expresses</data>
+  <data key="d2">2</data>
+</edge>
+<edge source="character:unknown" target="emotion:fear">
+  <data key="d1">expresses</data>
+  <data key="d2">3</data>
+</edge>
+<edge source="character:unknown" target="construct:Trust Bond">
+  <data key="d1">evokes_construct</data>
+  <data key="d2">6</data>
+</edge>
+<edge source="character:unknown" target="construct:Theory">
+  <data key="d1">evokes_construct</data>
+  <data key="d2">1</data>
+</edge>
+<edge source="character:unknown" target="emotion:joy">
+  <data key="d1">expresses</data>
+  <data key="d2">3</data>
+</edge>
+<edge source="cluster:6" target="character:businessman">
+  <data key="d1">belongs_to_cluster</data>
+  <data key="d2">1</data>
+</edge>
+<edge source="cluster:6" target="character:king">
+  <data key="d1">belongs_to_cluster</data>
+  <data key="d2">1</data>
+</edge>
+<edge source="cluster:6" target="character:fox">
+  <data key="d1">belongs_to_cluster</data>
+  <data key="d2">1</data>
+</edge>
+<edge source="cluster:6" target="character:little_prince">
+  <data key="d1">belongs_to_cluster</data>
+  <data key="d2">1</data>
+</edge>
+<edge source="cluster:0" target="character:little_prince">
+  <data key="d1">belongs_to_cluster</data>
+  <data key="d2">7</data>
+</edge>
+<edge source="cluster:0" target="character:snake">
+  <data key="d1">belongs_to_cluster</data>
+  <data key="d2">8</data>
+</edge>
+<edge source="cluster:0" target="character:fox">
+  <data key="d1">belongs_to_cluster</data>
+  <data key="d2">13</data>
+</edge>
+<edge source="cluster:0" target="character:king">
+  <data key="d1">belongs_to_cluster</data>
+  <data key="d2">3</data>
+</edge>
+<edge source="cluster:0" target="character:rose">
+  <data key="d1">belongs_to_cluster</data>
+  <data key="d2">2</data>
+</edge>
+<edge source="cluster:0" target="character:switchman">
+  <data key="d1">belongs_to_cluster</data>
+  <data key="d2">4</data>
+</edge>
+<edge source="emotion:fear" target="character:little_prince">
+  <data key="d1">expresses</data>
+  <data key="d2">1</data>
+</edge>
+<edge source="emotion:fear" target="character:rose">
+  <data key="d1">expresses</data>
+  <data key="d2">1</data>
+</edge>
+<edge source="cluster:1" target="character:drinker">
+  <data key="d1">belongs_to_cluster</data>
+  <data key="d2">9</data>
+</edge>
+<edge source="cluster:1" target="character:businessman">
+  <data key="d1">belongs_to_cluster</data>
+  <data key="d2">2</data>
+</edge>
+<edge source="cluster:1" target="character:king">
+  <data key="d1">belongs_to_cluster</data>
+  <data key="d2">1</data>
+</edge>
+<edge source="cluster:1" target="character:switchman">
+  <data key="d1">belongs_to_cluster</data>
+  <data key="d2">3</data>
+</edge>
+<edge source="cluster:1" target="character:little_prince">
+  <data key="d1">belongs_to_cluster</data>
+  <data key="d2">54</data>
+</edge>
+<edge source="cluster:1" target="character:conceited_man">
+  <data key="d1">belongs_to_cluster</data>
+  <data key="d2">2</data>
+</edge>
+<edge source="cluster:1" target="character:lamplighter">
+  <data key="d1">belongs_to_cluster</data>
+  <data key="d2">9</data>
+</edge>
+<edge source="cluster:1" target="character:snake">
+  <data key="d1">belongs_to_cluster</data>
+  <data key="d2">1</data>
+</edge>
+<edge source="cluster:1" target="character:fox">
+  <data key="d1">belongs_to_cluster</data>
+  <data key="d2">5</data>
+</edge>
+<edge source="cluster:1" target="character:merchant">
+  <data key="d1">belongs_to_cluster</data>
+  <data key="d2">2</data>
+</edge>
+<edge source="cluster:5" target="character:king">
+  <data key="d1">belongs_to_cluster</data>
+  <data key="d2">3</data>
+</edge>
+<edge source="cluster:5" target="character:rose">
+  <data key="d1">belongs_to_cluster</data>
+  <data key="d2">2</data>
+</edge>
+<edge source="cluster:5" target="character:geographer">
+  <data key="d1">belongs_to_cluster</data>
+  <data key="d2">1</data>
+</edge>
+<edge source="cluster:5" target="character:fox">
+  <data key="d1">belongs_to_cluster</data>
+  <data key="d2">3</data>
+</edge>
+<edge source="cluster:5" target="character:little_prince">
+  <data key="d1">belongs_to_cluster</data>
+  <data key="d2">6</data>
+</edge>
+<edge source="cluster:5" target="character:lamplighter">
+  <data key="d1">belongs_to_cluster</data>
+  <data key="d2">1</data>
+</edge>
+<edge source="cluster:5" target="character:snake">
+  <data key="d1">belongs_to_cluster</data>
+  <data key="d2">3</data>
+</edge>
+<edge source="character:little_prince" target="cluster:2">
+  <data key="d1">belongs_to_cluster</data>
+  <data key="d2">131</data>
+</edge>
+<edge source="character:little_prince" target="construct:Meaning">
+  <data key="d1">evokes_construct</data>
+  <data key="d2">2</data>
+</edge>
+<edge source="character:little_prince" target="cluster:7">
+  <data key="d1">belongs_to_cluster</data>
+  <data key="d2">14</data>
+</edge>
+<edge source="character:little_prince" target="construct:Iteration">
+  <data key="d1">evokes_construct</data>
+  <data key="d2">10</data>
+</edge>
+<edge source="character:little_prince" target="emotion:joy">
+  <data key="d1">expresses</data>
+  <data key="d2">3</data>
+</edge>
+<edge source="character:little_prince" target="emotion:sadness">
+  <data key="d1">expresses</data>
+  <data key="d2">9</data>
+</edge>
+<edge source="character:little_prince" target="construct:Productivism">
+  <data key="d1">evokes_construct</data>
+  <data key="d2">4</data>
+</edge>
+<edge source="character:little_prince" target="construct:Understanding">
+  <data key="d1">evokes_construct</data>
+  <data key="d2">5</data>
+</edge>
+<edge source="character:little_prince" target="emotion:curiosity">
+  <data key="d1">expresses</data>
+  <data key="d2">25</data>
+</edge>
+<edge source="character:little_prince" target="cluster:4">
+  <data key="d1">belongs_to_cluster</data>
+  <data key="d2">5</data>
+</edge>
+<edge source="character:little_prince" target="construct:Theory">
+  <data key="d1">evokes_construct</data>
+  <data key="d2">2</data>
+</edge>
+<edge source="character:little_prince" target="construct:Sustainability">
+  <data key="d1">evokes_construct</data>
+  <data key="d2">8</data>
+</edge>
+<edge source="character:little_prince" target="emotion:love">
+  <data key="d1">expresses</data>
+  <data key="d2">8</data>
+</edge>
+<edge source="character:little_prince" target="construct:Trust Bond">
+  <data key="d1">evokes_construct</data>
+  <data key="d2">9</data>
+</edge>
+<edge source="character:little_prince" target="construct:Automation">
+  <data key="d1">evokes_construct</data>
+  <data key="d2">2</data>
+</edge>
+<edge source="character:little_prince" target="emotion:anger">
+  <data key="d1">expresses</data>
+  <data key="d2">4</data>
+</edge>
+<edge source="character:little_prince" target="construct:Quality">
+  <data key="d1">evokes_construct</data>
+  <data key="d2">3</data>
+</edge>
+<edge source="character:little_prince" target="construct:Ritual">
+  <data key="d1">evokes_construct</data>
+  <data key="d2">1</data>
+</edge>
+<edge source="character:little_prince" target="construct:Responsibility">
+  <data key="d1">evokes_construct</data>
+  <data key="d2">1</data>
+</edge>
+<edge source="cluster:2" target="character:king">
+  <data key="d1">belongs_to_cluster</data>
+  <data key="d2">23</data>
+</edge>
+<edge source="character:king" target="construct:Meaning">
+  <data key="d1">evokes_construct</data>
+  <data key="d2">1</data>
+</edge>
+<edge source="character:king" target="construct:Productivism">
+  <data key="d1">evokes_construct</data>
+  <data key="d2">2</data>
+</edge>
+<edge source="character:king" target="cluster:4">
+  <data key="d1">belongs_to_cluster</data>
+  <data key="d2">1</data>
+</edge>
+<edge source="character:king" target="construct:Automation">
+  <data key="d1">evokes_construct</data>
+  <data key="d2">2</data>
+</edge>
+<edge source="character:king" target="emotion:sadness">
+  <data key="d1">expresses</data>
+  <data key="d2">1</data>
+</edge>
+<edge source="construct:Quality" target="sociotech:Craftsmanship">
+  <data key="d1">maps_to_sociotechnical</data>
+  <data key="d2">26</data>
+</edge>
+<edge source="construct:Quality" target="character:rose">
+  <data key="d1">evokes_construct</data>
+  <data key="d2">2</data>
+</edge>
+<edge source="cluster:7" target="character:rose">
+  <data key="d1">belongs_to_cluster</data>
+  <data key="d2">30</data>
+</edge>
+<edge source="cluster:7" target="character:geographer">
+  <data key="d1">belongs_to_cluster</data>
+  <data key="d2">1</data>
+</edge>
+<edge source="emotion:curiosity" target="character:geographer">
+  <data key="d1">expresses</data>
+  <data key="d2">2</data>
+</edge>
+<edge source="construct:Understanding" target="sociotech:Empathy">
+  <data key="d1">maps_to_sociotechnical</data>
+  <data key="d2">15</data>
+</edge>
+<edge source="construct:Understanding" target="character:lamplighter">
+  <data key="d1">evokes_construct</data>
+  <data key="d2">2</data>
+</edge>
+<edge source="emotion:joy" target="character:switchman">
+  <data key="d1">expresses</data>
+  <data key="d2">1</data>
+</edge>
+<edge source="construct:Meaning" target="sociotech:Purpose">
+  <data key="d1">maps_to_sociotechnical</data>
+  <data key="d2">10</data>
+</edge>
+<edge source="construct:Ritual" target="sociotech:Process Awareness">
+  <data key="d1">maps_to_sociotechnical</data>
+  <data key="d2">19</data>
+</edge>
+<edge source="construct:Productivism" target="sociotech:Burnout Risk">
+  <data key="d1">maps_to_sociotechnical</data>
+  <data key="d2">36</data>
+</edge>
+<edge source="construct:Productivism" target="character:businessman">
+  <data key="d1">evokes_construct</data>
+  <data key="d2">3</data>
+</edge>
+<edge source="construct:Productivism" target="character:geographer">
+  <data key="d1">evokes_construct</data>
+  <data key="d2">1</data>
+</edge>
+<edge source="sociotech:Burnout Risk" target="construct:Automation">
+  <data key="d1">maps_to_sociotechnical</data>
+  <data key="d2">33</data>
+</edge>
+<edge source="emotion:sadness" target="character:geographer">
+  <data key="d1">expresses</data>
+  <data key="d2">1</data>
+</edge>
+<edge source="emotion:sadness" target="character:switchman">
+  <data key="d1">expresses</data>
+  <data key="d2">1</data>
+</edge>
+<edge source="emotion:sadness" target="character:rose">
+  <data key="d1">expresses</data>
+  <data key="d2">1</data>
+</edge>
+<edge source="character:rose" target="construct:Sustainability">
+  <data key="d1">evokes_construct</data>
+  <data key="d2">3</data>
+</edge>
+<edge source="character:rose" target="emotion:love">
+  <data key="d1">expresses</data>
+  <data key="d2">1</data>
+</edge>
+<edge source="character:rose" target="construct:Responsibility">
+  <data key="d1">evokes_construct</data>
+  <data key="d2">3</data>
+</edge>
+<edge source="construct:Iteration" target="sociotech:Adaptability">
+  <data key="d1">maps_to_sociotechnical</data>
+  <data key="d2">31</data>
+</edge>
+<edge source="emotion:anger" target="character:lamplighter">
+  <data key="d1">expresses</data>
+  <data key="d2">1</data>
+</edge>
+<edge source="emotion:anger" target="character:fox">
+  <data key="d1">expresses</data>
+  <data key="d2">2</data>
+</edge>
+<edge source="construct:Theory" target="sociotech:Continuous Learning">
+  <data key="d1">maps_to_sociotechnical</data>
+  <data key="d2">27</data>
+</edge>
+<edge source="construct:Theory" target="character:geographer">
+  <data key="d1">evokes_construct</data>
+  <data key="d2">20</data>
+</edge>
+<edge source="construct:Sustainability" target="sociotech:Sustainable Pace">
+  <data key="d1">maps_to_sociotechnical</data>
+  <data key="d2">34</data>
+</edge>
+<edge source="construct:Sustainability" target="character:snake">
+  <data key="d1">evokes_construct</data>
+  <data key="d2">1</data>
+</edge>
+<edge source="construct:Sustainability" target="character:geographer">
+  <data key="d1">evokes_construct</data>
+  <data key="d2">1</data>
+</edge>
+<edge source="character:geographer" target="cluster:4">
+  <data key="d1">belongs_to_cluster</data>
+  <data key="d2">25</data>
+</edge>
+<edge source="construct:Trust Bond" target="sociotech:Team Cohesion">
+  <data key="d1">maps_to_sociotechnical</data>
+  <data key="d2">54</data>
+</edge>
+<edge source="construct:Responsibility" target="sociotech:Accountability">
+  <data key="d1">maps_to_sociotechnical</data>
+  <data key="d2">9</data>
+</edge>
+<edge source="construct:Hidden Value" target="sociotech:Value Perception">
+  <data key="d1">maps_to_sociotechnical</data>
+  <data key="d2">6</data>
+</edge>
+</graph></graphml>
