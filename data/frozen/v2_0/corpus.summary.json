@@ -1,0 +1,55 @@
+{
+  "version": "2.0.0",
+  "status": "frozen",
+  "created_at": "2026-06-03T03:59:21.694025+00:00",
+  "description": "Corpus narrativo enriquecido con identificacion inicial de personajes, emocion, polaridad y subjetividad.",
+  "rows": 1404,
+  "columns": [
+    "record_id",
+    "language",
+    "chapter_id",
+    "chapter_title",
+    "dialogue",
+    "length_chars",
+    "length_words",
+    "dialogue_id",
+    "character",
+    "speaker",
+    "speaker_confidence",
+    "attribution_method",
+    "emotion",
+    "emotion_score",
+    "polarity",
+    "subjectivity",
+    "affect_method"
+  ],
+  "languages": [
+    "en",
+    "es",
+    "fr"
+  ],
+  "characters": {
+    "little_prince": 529,
+    "unknown": 138,
+    "rose": 134,
+    "businessman": 131,
+    "fox": 122,
+    "king": 97,
+    "snake": 72,
+    "geographer": 70,
+    "lamplighter": 38,
+    "drunkard": 30,
+    "conceited_man": 22,
+    "switchman": 16,
+    "merchant": 5
+  },
+  "emotions": {
+    "neutral": 437,
+    "curiosity": 396,
+    "love": 329,
+    "sadness": 132,
+    "fear": 80,
+    "anger": 16,
+    "joy": 14
+  }
+}

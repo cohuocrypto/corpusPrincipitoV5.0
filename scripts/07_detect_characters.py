@@ -1,191 +1,232 @@
-"""
-07_detect_characters.py
-V2.0 - Deteccion inicial de personajes / hablantes.
-
-Entrada preferida:
-    data/frozen/v1_0/dialogues.parquet
-Fallbacks:
-    data/processed/dialogues.parquet
-    data/processed/dialogues_multilingual.csv
-
-Salida:
-    data/interim/dialogues_v2_characters.parquet
-    data/interim/dialogues_v2_characters.csv
-
-Notas:
-- No modifica la V1 congelada.
-- Usa reglas transparentes y reproducibles.
-- El objetivo es crear una primera capa narrativa: character, speaker_confidence, attribution_method.
-"""
-
-from __future__ import annotations
-
+import json
 import re
-from pathlib import Path
-from typing import Dict, List, Tuple
-
 import pandas as pd
+from pathlib import Path
 
-ROOT = Path(__file__).resolve().parents[1]
-DATA_PROCESSED = ROOT / "data" / "processed"
-DATA_INTERIM = ROOT / "data" / "interim"
-DATA_FROZEN_V1 = ROOT / "data" / "frozen" / "v1_0"
-DATA_INTERIM.mkdir(parents=True, exist_ok=True)
+ROOT = Path(__file__).resolve().parent.parent
 
-INPUT_CANDIDATES = [
-    DATA_FROZEN_V1 / "dialogues.parquet",
-    DATA_PROCESSED / "dialogues.parquet",
-    DATA_PROCESSED / "dialogues_multilingual.csv",
-]
+INPUT_FILE = ROOT / "data" / "processed" / "dialogues_base.parquet"
+OUTPUT_DIR = ROOT / "data" / "interim"
+OUTPUT_FILE = OUTPUT_DIR / "dialogues_v2_characters.parquet"
 
-OUTPUT_PARQUET = DATA_INTERIM / "dialogues_v2_characters.parquet"
-OUTPUT_CSV = DATA_INTERIM / "dialogues_v2_characters.csv"
+RULES_FILE = ROOT / "config" / "character_rules.json"
 
-# Diccionario multilingue de pistas lexicas por personaje.
-# Se puede ampliar sin cambiar el resto del pipeline.
-CHARACTER_PATTERNS: Dict[str, List[str]] = {
-    "little_prince": [
-        r"\bpetit prince\b", r"\blittle prince\b", r"\bprincipito\b",
-        r"\bmon ami\b", r"\bmy friend\b", r"\bmi amigo\b",
-    ],
-    "fox": [
-        r"\brenard\b", r"\bfox\b", r"\bzorro\b",
-        r"\bapprivois", r"\btame\b", r"\bdomestic",
-    ],
-    "rose": [
-        r"\brose\b", r"\brosa\b", r"\bfleur\b", r"\bflower\b", r"\bflor\b",
-        r"\bepine", r"\bthorn", r"\bespina",
-    ],
-    "king": [
-        r"\broi\b", r"\bking\b", r"\brey\b", r"\bsire\b", r"\bmajest",
-        r"\border\b", r"\bordeno\b", r"\bordonne",
-    ],
-    "businessman": [
-        r"\bbusinessman\b", r"\bhomme d'affaires\b", r"\bhombre de negocios\b",
-        r"\bstars\b", r"\bestrellas\b", r"\betoiles\b", r"\bcount",
-        r"\bcompte\b", r"\bcuento\b",
-    ],
-    "lamplighter": [
-        r"\blamplighter\b", r"\ballumeur\b", r"\bfarolero\b",
-        r"\blamp\b", r"\blanterne\b", r"\bfarol\b", r"\bconsigne\b",
-    ],
-    "geographer": [
-        r"\bgeographer\b", r"\bgeographe\b", r"\bgeografo\b", r"\bgeógrafo\b",
-        r"\bexplorer\b", r"\bexplorateur\b", r"\bexplorador\b",
-    ],
-    "snake": [
-        r"\bsnake\b", r"\bserpent\b", r"\bserpiente\b",
-        r"\bvenom\b", r"\bpoison\b", r"\bveneno\b",
-    ],
-    "drunkard": [
-        r"\bdrunkard\b", r"\bbuveur\b", r"\bbebedor\b",
-        r"\bdrink\b", r"\bboire\b", r"\bbeber\b",
-    ],
-    "conceited_man": [
-        r"\bconceited\b", r"\bvaniteux\b", r"\bvanidoso\b",
-        r"\badmirer\b", r"\badmirateur\b", r"\badmirador\b",
-    ],
-    "switchman": [
-        r"\bswitchman\b", r"\baiguilleur\b", r"\bguardagujas\b",
-        r"\btrain\b", r"\btren\b", r"\bvoyageurs\b", r"\btravelers\b",
-    ],
-    "merchant": [
-        r"\bmerchant\b", r"\bmarchand\b", r"\bcomerciante\b",
-        r"\bpills\b", r"\bpilules\b", r"\bpildoras\b", r"\bpíldoras\b",
-    ],
-    "pilot_narrator": [
-        r"\bpilot\b", r"\bpilote\b", r"\bpiloto\b", r"\bavion\b", r"\bplane\b", r"\bdesert\b", r"\bdesierto\b",
-    ],
-}
-
-# Pistas de estilo para dialogos muy conocidos sin contexto amplio.
-SIGNATURE_RULES: List[Tuple[str, str, float]] = [
-    (r"domest|apprivois|tame", "fox", 0.95),
-    (r"responsable.*domest|responsible.*tamed|responsable.*apprivois", "fox", 0.98),
-    (r"dessine-moi un mouton|draw me a sheep|dibujame un cordero|dibújame un cordero", "little_prince", 0.98),
-    (r"epines|thorns|espinas", "rose", 0.85),
-    (r"consigne|orders are orders|la consigna|ordenes son ordenes|órdenes son órdenes", "lamplighter", 0.90),
-    (r"je possede les etoiles|i own the stars|poseo las estrellas", "businessman", 0.95),
-]
+OUTPUT_DIR.mkdir(parents=True, exist_ok=True)
 
 
-def read_dialogues() -> pd.DataFrame:
-    for path in INPUT_CANDIDATES:
-        if path.exists():
-            print(f"Leyendo entrada: {path}")
-            if path.suffix == ".parquet":
-                return pd.read_parquet(path)
-            return pd.read_csv(path)
-    tried = "\n".join(str(p) for p in INPUT_CANDIDATES)
-    raise FileNotFoundError(f"No se encontro archivo de dialogos. Rutas probadas:\n{tried}")
+def load_rules():
+    if not RULES_FILE.exists():
+        raise FileNotFoundError(f"No existe el archivo de reglas: {RULES_FILE}")
+
+    with open(RULES_FILE, "r", encoding="utf-8") as f:
+        return json.load(f)
 
 
-def get_text_column(df: pd.DataFrame) -> str:
-    for candidate in ["dialogue", "text", "sentence", "segment"]:
-        if candidate in df.columns:
-            return candidate
-    raise ValueError("No encuentro columna de texto. Usa una columna llamada dialogue, text, sentence o segment.")
-
-
-def normalize_for_rules(text: str) -> str:
+def normalize(text):
     text = str(text).lower()
-    replacements = {
-        "á": "a", "é": "e", "í": "i", "ó": "o", "ú": "u", "ñ": "n",
-        "à": "a", "â": "a", "ê": "e", "î": "i", "ô": "o", "û": "u", "ç": "c",
-        "ë": "e", "ï": "i", "ü": "u",
-    }
-    for old, new in replacements.items():
-        text = text.replace(old, new)
-    return re.sub(r"\s+", " ", text).strip()
+    text = re.sub(r"[^\w\sáéíóúñàâêîôûçü]", " ", text)
+    text = re.sub(r"\s+", " ", text)
+    return text.strip()
 
 
-def infer_character(text: str) -> Tuple[str, float, str]:
-    clean = normalize_for_rules(text)
+def keyword_score(text, keywords):
+    text_norm = normalize(text)
+    score = 0
 
-    for pattern, character, confidence in SIGNATURE_RULES:
-        if re.search(pattern, clean, flags=re.IGNORECASE):
-            return character, confidence, "signature_rule"
+    for kw in keywords:
+        kw_norm = normalize(kw)
+        if re.search(rf"\b{re.escape(kw_norm)}\b", text_norm):
+            score += 1
 
+    return score
+
+
+def detect_by_keywords(dialogue, rules):
     scores = {}
-    for character, patterns in CHARACTER_PATTERNS.items():
-        hits = sum(1 for pattern in patterns if re.search(pattern, clean, flags=re.IGNORECASE))
-        if hits > 0:
-            scores[character] = hits
 
-    if not scores:
-        return "unknown", 0.20, "no_rule_match"
+    for character, keywords in rules.items():
+        scores[character] = keyword_score(dialogue, keywords)
 
     best_character = max(scores, key=scores.get)
     best_score = scores[best_character]
-    total = sum(scores.values())
-    confidence = min(0.85, 0.45 + (best_score / total) * 0.35 + min(best_score, 3) * 0.05)
-    return best_character, round(confidence, 3), "lexical_rule"
+
+    if best_score == 0:
+        return "unknown", 0.0, "no_match"
+
+    confidence = min(0.95, 0.55 + best_score * 0.10)
+
+    return best_character, confidence, "keyword_rules"
 
 
-def main() -> None:
-    df = read_dialogues().copy()
-    text_col = get_text_column(df)
+def apply_keyword_detection(df, rules):
+    characters = []
+    confidences = []
+    methods = []
 
+    for _, row in df.iterrows():
+        character, confidence, method = detect_by_keywords(
+            row["dialogue"],
+            rules
+        )
+        characters.append(character)
+        confidences.append(confidence)
+        methods.append(method)
+
+    df["character"] = characters
+    df["speaker"] = characters
+    df["speaker_confidence"] = confidences
+    df["attribution_method"] = methods
+
+    return df
+
+
+def propagate_between_same_speakers(df):
+    df = df.sort_values(
+        ["language", "chapter_id", "dialogue_id"]
+    ).reset_index(drop=True)
+
+    for i in range(1, len(df) - 1):
+        current = df.loc[i, "character"]
+
+        if current != "unknown":
+            continue
+
+        same_language = (
+            df.loc[i - 1, "language"] == df.loc[i, "language"]
+            and df.loc[i + 1, "language"] == df.loc[i, "language"]
+        )
+
+        same_chapter = (
+            df.loc[i - 1, "chapter_id"] == df.loc[i, "chapter_id"]
+            and df.loc[i + 1, "chapter_id"] == df.loc[i, "chapter_id"]
+        )
+
+        same_speaker = (
+            df.loc[i - 1, "character"] == df.loc[i + 1, "character"]
+            and df.loc[i - 1, "character"] != "unknown"
+        )
+
+        if same_language and same_chapter and same_speaker:
+            speaker = df.loc[i - 1, "character"]
+            df.loc[i, "character"] = speaker
+            df.loc[i, "speaker"] = speaker
+            df.loc[i, "speaker_confidence"] = 0.70
+            df.loc[i, "attribution_method"] = "sandwich_propagation"
+
+    return df
+
+
+def propagate_by_previous_speaker(df, window=2):
+    df = df.sort_values(
+        ["language", "chapter_id", "dialogue_id"]
+    ).reset_index(drop=True)
+
+    for i in range(len(df)):
+        if df.loc[i, "character"] != "unknown":
+            continue
+
+        current_lang = df.loc[i, "language"]
+        current_chapter = df.loc[i, "chapter_id"]
+
+        previous_candidates = []
+
+        for j in range(max(0, i - window), i):
+            if (
+                df.loc[j, "language"] == current_lang
+                and df.loc[j, "chapter_id"] == current_chapter
+                and df.loc[j, "character"] != "unknown"
+            ):
+                previous_candidates.append(df.loc[j, "character"])
+
+        if previous_candidates:
+            speaker = previous_candidates[-1]
+            df.loc[i, "character"] = speaker
+            df.loc[i, "speaker"] = speaker
+            df.loc[i, "speaker_confidence"] = 0.55
+            df.loc[i, "attribution_method"] = "previous_speaker_window"
+
+    return df
+
+
+def propagate_by_chapter_dominance(df, threshold=0.55):
+    groups = df.groupby(["language", "chapter_id"])
+
+    for (lang, chapter), group in groups:
+        known = group[group["character"] != "unknown"]
+
+        if len(known) < 3:
+            continue
+
+        distribution = known["character"].value_counts(normalize=True)
+        dominant_character = distribution.index[0]
+        dominance = distribution.iloc[0]
+
+        if dominance >= threshold:
+            idx_unknown = group[group["character"] == "unknown"].index
+
+            df.loc[idx_unknown, "character"] = dominant_character
+            df.loc[idx_unknown, "speaker"] = dominant_character
+            df.loc[idx_unknown, "speaker_confidence"] = 0.60
+            df.loc[idx_unknown, "attribution_method"] = "chapter_dominance"
+
+    return df
+
+
+def add_record_id_if_missing(df):
+    if "record_id" not in df.columns:
+        df["record_id"] = [
+            f"{row.language}_ch{int(row.chapter_id):02d}_dlg{i:04d}"
+            for i, row in df.iterrows()
+        ]
+    return df
+
+
+def add_dialogue_id_if_missing(df):
     if "dialogue_id" not in df.columns:
-        df.insert(0, "dialogue_id", range(1, len(df) + 1))
+        df["dialogue_id"] = (
+            df.groupby(["language", "chapter_id"])
+            .cumcount()
+        )
+    return df
 
-    inferred = df[text_col].apply(infer_character)
-    df["character"] = inferred.apply(lambda x: x[0])
-    df["speaker"] = df["character"]
-    df["speaker_confidence"] = inferred.apply(lambda x: x[1])
-    df["attribution_method"] = inferred.apply(lambda x: x[2])
 
-    # Asegura columna chapter_id para compatibilidad. Si V1 no la tiene, queda pendiente.
-    if "chapter_id" not in df.columns:
-        df["chapter_id"] = pd.NA
+def main():
+    print("=== V2.1 Character Detection Improved ===")
 
-    df.to_parquet(OUTPUT_PARQUET, index=False)
-    df.to_csv(OUTPUT_CSV, index=False, encoding="utf-8-sig")
+    if not INPUT_FILE.exists():
+        raise FileNotFoundError(f"No existe archivo de entrada: {INPUT_FILE}")
 
-    print("Archivo generado:", OUTPUT_PARQUET)
-    print("Registros:", len(df))
-    print("Distribucion de personajes:")
-    print(df["character"].value_counts(dropna=False).head(20))
+    df = pd.read_parquet(INPUT_FILE)
+
+    df = add_dialogue_id_if_missing(df)
+    df = add_record_id_if_missing(df)
+
+    rules = load_rules()
+
+    print("Registros de entrada:", len(df))
+
+    df = apply_keyword_detection(df, rules)
+    df = propagate_between_same_speakers(df)
+    df = propagate_by_previous_speaker(df, window=2)
+    df = propagate_by_chapter_dominance(df, threshold=0.55)
+
+    df.to_parquet(OUTPUT_FILE, index=False)
+
+    print("Archivo generado:", OUTPUT_FILE)
+    print("\nDistribución de personajes:")
+    print(df["character"].value_counts())
+
+    total = len(df)
+    unknown = int((df["character"] == "unknown").sum())
+    coverage = round((1 - unknown / total) * 100, 2)
+
+    print("\nCobertura:")
+    print(f"Total: {total}")
+    print(f"Unknown: {unknown}")
+    print(f"Cobertura personajes: {coverage}%")
+
+    print("\nMétodos usados:")
+    print(df["attribution_method"].value_counts())
 
 
 if __name__ == "__main__":

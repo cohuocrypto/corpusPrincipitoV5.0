@@ -1,0 +1,37 @@
+{
+  "project": "The Little Prince Multilingual Narrative Corpus",
+  "version": "2.0.0",
+  "status": "frozen",
+  "created_at": "2026-06-03T03:59:21.694025+00:00",
+  "source_version": "v1_0 frozen corpus",
+  "methodological_layer": "V2 - Narrative metadata and affective enrichment",
+  "new_variables": [
+    "character",
+    "speaker",
+    "speaker_confidence",
+    "attribution_method",
+    "emotion",
+    "emotion_score",
+    "polarity",
+    "subjectivity",
+    "affect_method"
+  ],
+  "files": [
+    {
+      "filename": "dialogues_v2_enriched.parquet",
+      "size_bytes": 108375,
+      "sha256": "f5701fcd0e4ecc263b4db286fb76cf2c072357852dc7fba566ac2b25c1d84f36"
+    },
+    {
+      "filename": "dialogues_v2_enriched.csv",
+      "size_bytes": 333169,
+      "sha256": "72a94bb93948348b21afd0fbdb3ba5dbb0ad16887a30e7c6001e9dbed019432d"
+    },
+    {
+      "filename": "v2_validation_report.json",
+      "size_bytes": 1566,
+      "sha256": "03d749c2182343a81bc8ae89295b096853c46e44c9d496ae14619fe343810d81"
+    }
+  ],
+  "reproducibility_note": "V2 is derived from V1 frozen outputs. V1 files are not modified."
+}

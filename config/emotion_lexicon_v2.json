@@ -1,0 +1,32 @@
+{
+  "love": [
+    "love", "friend", "friends", "friendship", "heart", "tame", "tamed", "unique", "important",
+    "amor", "amigo", "amigos", "amistad", "corazón", "domesticar", "domesticado", "único", "importante",
+    "aimer", "ami", "amis", "amitié", "coeur", "cœur", "apprivoiser", "apprivoisé", "unique", "important"
+  ],
+  "sadness": [
+    "sad", "cry", "tears", "alone", "lonely", "goodbye", "die", "death", "lost", "miss",
+    "triste", "llorar", "lágrimas", "solo", "solitario", "adiós", "morir", "muerte", "perdido", "extrañar",
+    "triste", "pleurer", "larmes", "seul", "solitaire", "adieu", "mourir", "mort", "perdu", "manquer"
+  ],
+  "joy": [
+    "laugh", "smile", "happy", "play", "pleasure", "beautiful", "wonderful",
+    "reír", "sonreír", "feliz", "jugar", "placer", "hermoso", "maravilloso",
+    "rire", "sourire", "heureux", "jouer", "plaisir", "beau", "merveilleux"
+  ],
+  "fear": [
+    "fear", "afraid", "danger", "dangerous", "snake", "poison", "bite", "death",
+    "miedo", "temor", "peligro", "peligroso", "serpiente", "veneno", "morder", "muerte",
+    "peur", "craindre", "danger", "dangereux", "serpent", "venin", "mordre", "mort"
+  ],
+  "anger": [
+    "angry", "anger", "absurd", "order", "obey", "command", "ridiculous",
+    "enojo", "enojado", "absurdo", "orden", "obedecer", "mandato", "ridículo",
+    "colère", "furieux", "absurde", "ordre", "obéir", "commander", "ridicule"
+  ],
+  "curiosity": [
+    "why", "what", "where", "when", "how", "question", "ask", "know", "understand",
+    "por qué", "qué", "dónde", "cuándo", "cómo", "pregunta", "preguntar", "saber", "comprender",
+    "pourquoi", "quoi", "où", "quand", "comment", "question", "demander", "savoir", "comprendre"
+  ]
+}

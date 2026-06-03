@@ -1,0 +1,66 @@
+{
+  "version": "2.0.0-dev",
+  "status": "validation_passed",
+  "created_at": "2026-06-03T03:54:48.043327+00:00",
+  "input_file": "/Users/macohuo/Desktop/principitoPipeline/principito_pipeline_v5/data/processed/dialogues_v2_enriched.parquet",
+  "rows": 1404,
+  "columns": 17,
+  "required_columns": [
+    "dialogue_id",
+    "character",
+    "speaker",
+    "speaker_confidence",
+    "attribution_method",
+    "chapter_id",
+    "emotion",
+    "emotion_score",
+    "polarity",
+    "subjectivity",
+    "affect_method"
+  ],
+  "missing_columns": [],
+  "coverage": {
+    "character_known_rate": 0.9017,
+    "character_unknown_rate": 0.0983,
+    "emotion_non_neutral_rate": 0.6887,
+    "chapter_available_rate": 1.0,
+    "speaker_confidence_mean": 0.5536,
+    "emotion_score_mean": 0.5066,
+    "polarity_mean": 0.0075,
+    "subjectivity_mean": 0.4265
+  },
+  "quality_flags": [],
+  "distributions": {
+    "characters": {
+      "little_prince": 529,
+      "unknown": 138,
+      "rose": 134,
+      "businessman": 131,
+      "fox": 122,
+      "king": 97,
+      "snake": 72,
+      "geographer": 70,
+      "lamplighter": 38,
+      "drunkard": 30,
+      "conceited_man": 22,
+      "switchman": 16,
+      "merchant": 5
+    },
+    "emotions": {
+      "neutral": 437,
+      "curiosity": 396,
+      "love": 329,
+      "sadness": 132,
+      "fear": 80,
+      "anger": 16,
+      "joy": 14
+    },
+    "attribution_methods": {
+      "keyword_rules": 629,
+      "previous_speaker_window": 482,
+      "no_match": 138,
+      "chapter_dominance": 84,
+      "sandwich_propagation": 71
+    }
+  }
+}

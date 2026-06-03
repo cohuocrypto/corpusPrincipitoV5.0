@@ -1,0 +1,56 @@
+{
+  "little_prince": [
+    "little prince", "principito", "petit prince",
+    "my little man", "mon petit bonhomme"
+  ],
+  "fox": [
+    "fox", "zorro", "renard",
+    "tame", "domesticar", "apprivoiser",
+    "friend", "amigo", "ami"
+  ],
+  "rose": [
+    "rose", "rosa", "flower", "fleur",
+    "thorn", "espina", "épine"
+  ],
+  "king": [
+    "king", "rey", "roi",
+    "order", "obey", "orden", "obedecer", "ordre", "obéir"
+  ],
+  "businessman": [
+    "businessman", "business man", "hombre de negocios",
+    "business", "stars", "estrellas", "étoiles"
+  ],
+  "lamplighter": [
+    "lamplighter", "farolero", "allumeur",
+    "lamp", "farol", "réverbère"
+  ],
+  "geographer": [
+    "geographer", "geógrafo", "geographer", "géographe",
+    "explorer", "explorador", "explorateur"
+  ],
+  "snake": [
+    "snake", "serpiente", "serpent",
+    "poison", "veneno", "venin"
+  ],
+  "drunkard": [
+    "drunkard", "bebedor", "buveur",
+    "drink", "beber", "boire"
+  ],
+  "conceited_man": [
+    "conceited", "vanidoso", "vaniteux",
+    "admire", "admirar", "admirer"
+  ],
+  "switchman": [
+    "switchman", "guardagujas", "aiguilleur",
+    "train", "tren", "train"
+  ],
+  "merchant": [
+    "merchant", "comerciante", "marchand",
+    "pill", "píldora", "pilule"
+  ],
+  "pilot_narrator": [
+    "pilot", "aviator", "narrator",
+    "piloto", "aviador", "narrador",
+    "pilote", "aviateur", "narrateur"
+  ]
+}
