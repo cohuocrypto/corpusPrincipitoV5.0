@@ -1,0 +1,7 @@
+{
+  "version": "v5_0_frozen",
+  "status": "frozen",
+  "description": "Corpus Principito V5.0 with narrative enrichment, emotion annotation, semantic alignment and clustering.",
+  "main_file": "dialogues_v5_semantic_clusters.parquet",
+  "created_at": "2026-06-03T04:34:50.713875+00:00"
+}

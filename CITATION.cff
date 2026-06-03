@@ -1,0 +1,18 @@
+cff-version: 1.2.0
+title: "Corpus Principito V5.0: Multilingual Narrative Human Metrics Corpus"
+message: "If you use this repository, please cite it as below."
+type: software
+authors:
+  - family-names: "Cohuo Ávila"
+    given-names: "Miguel Ángel"
+version: "5.0"
+date-released: "2026-06-03"
+repository-code: "https://github.com/cohuocrypto/corpusPrincipitoV5.0"
+license: MIT
+keywords:
+  - NLP
+  - corpus
+  - multilingual corpus
+  - narrative analysis
+  - human factors
+  - agile software development

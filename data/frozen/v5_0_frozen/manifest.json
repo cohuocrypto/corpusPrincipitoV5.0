@@ -1,0 +1,32 @@
+{
+  "version": "v5_0_frozen",
+  "status": "frozen",
+  "created_at": "2026-06-03T04:34:50.713875+00:00",
+  "files": [
+    {
+      "file": "dialogues_v5_semantic_clusters.parquet",
+      "sha256": "d42fb2939dbff5dcb554b9a56a9490124dafefe16d671be1fc9bef5d96219c1b",
+      "size_bytes": 151668
+    },
+    {
+      "file": "dialogues_v5_semantic_clusters.csv",
+      "sha256": "e55b16908f000c393975005850b3fe21b49ebf9038288481f21f033c3c61dee4",
+      "size_bytes": 500054
+    },
+    {
+      "file": "v5_validation_report.json",
+      "sha256": "103d10901a0fe5ccb8153bc236ea4ab119e08124100937bc40acce8c2752f848",
+      "size_bytes": 1721
+    },
+    {
+      "file": "semantic_alignment_report.json",
+      "sha256": "8a47e02200160126bb3d504ab3475c4f87344478dec8ba4dd94a6ea9971eff55",
+      "size_bytes": 188
+    },
+    {
+      "file": "semantic_cluster_report.json",
+      "sha256": "348b60ca7614a692e73ca771528e6e4621655785bb67d81dc1a97ad7090e0fc0",
+      "size_bytes": 320
+    }
+  ]
+}

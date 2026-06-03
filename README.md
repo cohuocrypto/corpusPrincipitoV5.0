@@ -295,3 +295,4 @@ Human Factor
 ↓
 Agile Principle
 ```
+The source code is released under the MIT License. The literary texts are not redistributed due to copyright restrictions. Users must provide their own source texts in data/raw/.

@@ -1,0 +1,82 @@
+{
+  "version": "5.0.0-frozen",
+  "status": "validation_warning",
+  "created_at": "2026-06-03T04:34:50.660121+00:00",
+  "input_file": "/Users/macohuo/Desktop/principitoPipeline/principito_pipeline_v5/data/processed/dialogues_v5_semantic_clusters.parquet",
+  "rows": 1404,
+  "columns": 25,
+  "required_columns": [
+    "record_id",
+    "language",
+    "chapter_id",
+    "dialogue",
+    "character",
+    "speaker",
+    "speaker_confidence",
+    "emotion",
+    "emotion_score",
+    "polarity",
+    "subjectivity",
+    "parallel_group",
+    "alignment_score",
+    "aligned_to_record_id",
+    "semantic_cluster",
+    "cluster_probability"
+  ],
+  "missing_columns": [],
+  "coverage": {
+    "character_known_rate": 0.9017,
+    "emotion_non_neutral_rate": 0.6887,
+    "alignment_score_mean": 0.8286,
+    "cluster_probability_mean": 0.2811,
+    "subjectivity_mean": 0.4265
+  },
+  "quality_flags": [
+    "low_cluster_probability"
+  ],
+  "distributions": {
+    "languages": {
+      "fr": 481,
+      "es": 466,
+      "en": 457
+    },
+    "characters": {
+      "little_prince": 529,
+      "unknown": 138,
+      "rose": 134,
+      "businessman": 131,
+      "fox": 122,
+      "king": 97,
+      "snake": 72,
+      "geographer": 70,
+      "lamplighter": 38,
+      "drunkard": 30,
+      "conceited_man": 22,
+      "switchman": 16,
+      "merchant": 5
+    },
+    "emotions": {
+      "neutral": 437,
+      "curiosity": 396,
+      "love": 329,
+      "sadness": 132,
+      "fear": 80,
+      "anger": 16,
+      "joy": 14
+    },
+    "clusters": {
+      "0": 131,
+      "1": 105,
+      "2": 206,
+      "3": 185,
+      "4": 61,
+      "5": 68,
+      "6": 86,
+      "7": 124,
+      "8": 106,
+      "9": 80,
+      "10": 102,
+      "11": 150
+    }
+  }
+}

@@ -1,0 +1,7 @@
+{
+  "rows": 1404,
+  "mean_alignment_score": 0.8286,
+  "min_alignment_score": 0.2432,
+  "max_alignment_score": 0.998,
+  "method": "cosine similarity with multilingual sentence embeddings"
+}

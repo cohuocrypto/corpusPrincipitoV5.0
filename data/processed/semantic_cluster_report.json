@@ -1,0 +1,20 @@
+{
+  "rows": 1404,
+  "n_clusters": 12,
+  "silhouette_score": 0.0694,
+  "cluster_counts": {
+    "0": 131,
+    "1": 105,
+    "2": 206,
+    "3": 185,
+    "4": 61,
+    "5": 68,
+    "6": 86,
+    "7": 124,
+    "8": 106,
+    "9": 80,
+    "10": 102,
+    "11": 150
+  },
+  "method": "KMeans over multilingual sentence embeddings"
+}

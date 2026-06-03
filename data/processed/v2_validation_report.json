@@ -1,7 +1,7 @@
 {
   "version": "2.0.0-dev",
   "status": "validation_passed",
-  "created_at": "2026-06-03T03:54:48.043327+00:00",
+  "created_at": "2026-06-03T04:34:27.420537+00:00",
   "input_file": "/Users/macohuo/Desktop/principitoPipeline/principito_pipeline_v5/data/processed/dialogues_v2_enriched.parquet",
   "rows": 1404,
   "columns": 17,
