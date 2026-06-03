@@ -8,3 +8,4 @@ python3 scripts/11_semantic_alignment.py
 python3 scripts/12_semantic_clusters.py
 python3 scripts/13_validate_v5.py
 python3 scripts/14_freeze_v5.py
+python3 scripts/15_draw_graph.py

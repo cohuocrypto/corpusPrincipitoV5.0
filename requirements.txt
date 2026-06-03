@@ -11,3 +11,5 @@ networkx
 matplotlib
 textblob
 vaderSentiment
+umap-learn
+hdbscan

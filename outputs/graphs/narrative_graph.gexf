@@ -1,0 +1,1248 @@
+<?xml version='1.0' encoding='utf-8'?>
+<gexf xmlns="http://www.gexf.net/1.2draft" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.gexf.net/1.2draft http://www.gexf.net/1.2draft/gexf.xsd" version="1.2">
+  <meta lastmodifieddate="2026-06-02">
+    <creator>NetworkX 3.4.2</creator>
+  </meta>
+  <graph defaultedgetype="undirected" mode="static" name="">
+    <attributes mode="static" class="edge">
+      <attribute id="1" title="relation" type="string" />
+    </attributes>
+    <attributes mode="static" class="node">
+      <attribute id="0" title="node_type" type="string" />
+    </attributes>
+    <nodes>
+      <node id="little_prince" label="little_prince">
+        <attvalues>
+          <attvalue for="0" value="character" />
+        </attvalues>
+      </node>
+      <node id="curiosity" label="curiosity">
+        <attvalues>
+          <attvalue for="0" value="emotion" />
+        </attvalues>
+      </node>
+      <node id="neutral" label="neutral">
+        <attvalues>
+          <attvalue for="0" value="emotion" />
+        </attvalues>
+      </node>
+      <node id="joy" label="joy">
+        <attvalues>
+          <attvalue for="0" value="emotion" />
+        </attvalues>
+      </node>
+      <node id="love" label="love">
+        <attvalues>
+          <attvalue for="0" value="emotion" />
+        </attvalues>
+      </node>
+      <node id="rose" label="rose">
+        <attvalues>
+          <attvalue for="0" value="character" />
+        </attvalues>
+      </node>
+      <node id="sadness" label="sadness">
+        <attvalues>
+          <attvalue for="0" value="emotion" />
+        </attvalues>
+      </node>
+      <node id="king" label="king">
+        <attvalues>
+          <attvalue for="0" value="character" />
+        </attvalues>
+      </node>
+      <node id="anger" label="anger">
+        <attvalues>
+          <attvalue for="0" value="emotion" />
+        </attvalues>
+      </node>
+      <node id="conceited_man" label="conceited_man">
+        <attvalues>
+          <attvalue for="0" value="character" />
+        </attvalues>
+      </node>
+      <node id="businessman" label="businessman">
+        <attvalues>
+          <attvalue for="0" value="character" />
+        </attvalues>
+      </node>
+      <node id="drunkard" label="drunkard">
+        <attvalues>
+          <attvalue for="0" value="character" />
+        </attvalues>
+      </node>
+      <node id="lamplighter" label="lamplighter">
+        <attvalues>
+          <attvalue for="0" value="character" />
+        </attvalues>
+      </node>
+      <node id="geographer" label="geographer">
+        <attvalues>
+          <attvalue for="0" value="character" />
+        </attvalues>
+      </node>
+      <node id="snake" label="snake">
+        <attvalues>
+          <attvalue for="0" value="character" />
+        </attvalues>
+      </node>
+      <node id="fear" label="fear">
+        <attvalues>
+          <attvalue for="0" value="emotion" />
+        </attvalues>
+      </node>
+      <node id="fox" label="fox">
+        <attvalues>
+          <attvalue for="0" value="character" />
+        </attvalues>
+      </node>
+      <node id="switchman" label="switchman">
+        <attvalues>
+          <attvalue for="0" value="character" />
+        </attvalues>
+      </node>
+      <node id="merchant" label="merchant">
+        <attvalues>
+          <attvalue for="0" value="character" />
+        </attvalues>
+      </node>
+      <node id="cluster_6" label="cluster_6">
+        <attvalues>
+          <attvalue for="0" value="cluster" />
+        </attvalues>
+      </node>
+      <node id="cluster_10" label="cluster_10">
+        <attvalues>
+          <attvalue for="0" value="cluster" />
+        </attvalues>
+      </node>
+      <node id="cluster_3" label="cluster_3">
+        <attvalues>
+          <attvalue for="0" value="cluster" />
+        </attvalues>
+      </node>
+      <node id="cluster_5" label="cluster_5">
+        <attvalues>
+          <attvalue for="0" value="cluster" />
+        </attvalues>
+      </node>
+      <node id="cluster_11" label="cluster_11">
+        <attvalues>
+          <attvalue for="0" value="cluster" />
+        </attvalues>
+      </node>
+      <node id="cluster_2" label="cluster_2">
+        <attvalues>
+          <attvalue for="0" value="cluster" />
+        </attvalues>
+      </node>
+      <node id="cluster_0" label="cluster_0">
+        <attvalues>
+          <attvalue for="0" value="cluster" />
+        </attvalues>
+      </node>
+      <node id="cluster_1" label="cluster_1">
+        <attvalues>
+          <attvalue for="0" value="cluster" />
+        </attvalues>
+      </node>
+      <node id="cluster_7" label="cluster_7">
+        <attvalues>
+          <attvalue for="0" value="cluster" />
+        </attvalues>
+      </node>
+      <node id="cluster_8" label="cluster_8">
+        <attvalues>
+          <attvalue for="0" value="cluster" />
+        </attvalues>
+      </node>
+      <node id="cluster_9" label="cluster_9">
+        <attvalues>
+          <attvalue for="0" value="cluster" />
+        </attvalues>
+      </node>
+      <node id="cluster_4" label="cluster_4">
+        <attvalues>
+          <attvalue for="0" value="cluster" />
+        </attvalues>
+      </node>
+    </nodes>
+    <edges>
+      <edge source="little_prince" target="curiosity" id="0" weight="201">
+        <attvalues>
+          <attvalue for="1" value="expresses" />
+        </attvalues>
+      </edge>
+      <edge source="little_prince" target="neutral" id="1" weight="182">
+        <attvalues>
+          <attvalue for="1" value="expresses" />
+        </attvalues>
+      </edge>
+      <edge source="little_prince" target="joy" id="2" weight="6">
+        <attvalues>
+          <attvalue for="1" value="expresses" />
+        </attvalues>
+      </edge>
+      <edge source="little_prince" target="love" id="3" weight="84">
+        <attvalues>
+          <attvalue for="1" value="expresses" />
+        </attvalues>
+      </edge>
+      <edge source="little_prince" target="sadness" id="4" weight="49">
+        <attvalues>
+          <attvalue for="1" value="expresses" />
+        </attvalues>
+      </edge>
+      <edge source="little_prince" target="fear" id="5" weight="7">
+        <attvalues>
+          <attvalue for="1" value="expresses" />
+        </attvalues>
+      </edge>
+      <edge source="little_prince" target="cluster_6" id="6" weight="12">
+        <attvalues>
+          <attvalue for="1" value="appears_in" />
+        </attvalues>
+      </edge>
+      <edge source="little_prince" target="cluster_10" id="7" weight="37">
+        <attvalues>
+          <attvalue for="1" value="appears_in" />
+        </attvalues>
+      </edge>
+      <edge source="little_prince" target="cluster_3" id="8" weight="63">
+        <attvalues>
+          <attvalue for="1" value="appears_in" />
+        </attvalues>
+      </edge>
+      <edge source="little_prince" target="cluster_5" id="9" weight="33">
+        <attvalues>
+          <attvalue for="1" value="appears_in" />
+        </attvalues>
+      </edge>
+      <edge source="little_prince" target="cluster_11" id="10" weight="42">
+        <attvalues>
+          <attvalue for="1" value="appears_in" />
+        </attvalues>
+      </edge>
+      <edge source="little_prince" target="cluster_2" id="11" weight="147">
+        <attvalues>
+          <attvalue for="1" value="appears_in" />
+        </attvalues>
+      </edge>
+      <edge source="little_prince" target="cluster_0" id="12" weight="40">
+        <attvalues>
+          <attvalue for="1" value="appears_in" />
+        </attvalues>
+      </edge>
+      <edge source="little_prince" target="cluster_1" id="13" weight="56">
+        <attvalues>
+          <attvalue for="1" value="appears_in" />
+        </attvalues>
+      </edge>
+      <edge source="little_prince" target="cluster_7" id="14" weight="35">
+        <attvalues>
+          <attvalue for="1" value="appears_in" />
+        </attvalues>
+      </edge>
+      <edge source="little_prince" target="cluster_8" id="15" weight="41">
+        <attvalues>
+          <attvalue for="1" value="appears_in" />
+        </attvalues>
+      </edge>
+      <edge source="little_prince" target="cluster_9" id="16" weight="13">
+        <attvalues>
+          <attvalue for="1" value="appears_in" />
+        </attvalues>
+      </edge>
+      <edge source="little_prince" target="cluster_4" id="17" weight="10">
+        <attvalues>
+          <attvalue for="1" value="appears_in" />
+        </attvalues>
+      </edge>
+      <edge source="curiosity" target="king" id="18" weight="16">
+        <attvalues>
+          <attvalue for="1" value="expresses" />
+        </attvalues>
+      </edge>
+      <edge source="curiosity" target="rose" id="19" weight="25">
+        <attvalues>
+          <attvalue for="1" value="expresses" />
+        </attvalues>
+      </edge>
+      <edge source="curiosity" target="conceited_man" id="20" weight="8">
+        <attvalues>
+          <attvalue for="1" value="expresses" />
+        </attvalues>
+      </edge>
+      <edge source="curiosity" target="businessman" id="21" weight="52">
+        <attvalues>
+          <attvalue for="1" value="expresses" />
+        </attvalues>
+      </edge>
+      <edge source="curiosity" target="lamplighter" id="22" weight="14">
+        <attvalues>
+          <attvalue for="1" value="expresses" />
+        </attvalues>
+      </edge>
+      <edge source="curiosity" target="geographer" id="23" weight="30">
+        <attvalues>
+          <attvalue for="1" value="expresses" />
+        </attvalues>
+      </edge>
+      <edge source="curiosity" target="switchman" id="24" weight="3">
+        <attvalues>
+          <attvalue for="1" value="expresses" />
+        </attvalues>
+      </edge>
+      <edge source="curiosity" target="drunkard" id="25" weight="7">
+        <attvalues>
+          <attvalue for="1" value="expresses" />
+        </attvalues>
+      </edge>
+      <edge source="curiosity" target="snake" id="26" weight="2">
+        <attvalues>
+          <attvalue for="1" value="expresses" />
+        </attvalues>
+      </edge>
+      <edge source="curiosity" target="merchant" id="27" weight="1">
+        <attvalues>
+          <attvalue for="1" value="expresses" />
+        </attvalues>
+      </edge>
+      <edge source="curiosity" target="fox" id="28" weight="1">
+        <attvalues>
+          <attvalue for="1" value="expresses" />
+        </attvalues>
+      </edge>
+      <edge source="curiosity" target="cluster_6" id="29" weight="58">
+        <attvalues>
+          <attvalue for="1" value="associated_with" />
+        </attvalues>
+      </edge>
+      <edge source="curiosity" target="cluster_3" id="30" weight="28">
+        <attvalues>
+          <attvalue for="1" value="associated_with" />
+        </attvalues>
+      </edge>
+      <edge source="curiosity" target="cluster_5" id="31" weight="21">
+        <attvalues>
+          <attvalue for="1" value="associated_with" />
+        </attvalues>
+      </edge>
+      <edge source="curiosity" target="cluster_0" id="32" weight="34">
+        <attvalues>
+          <attvalue for="1" value="associated_with" />
+        </attvalues>
+      </edge>
+      <edge source="curiosity" target="cluster_11" id="33" weight="18">
+        <attvalues>
+          <attvalue for="1" value="associated_with" />
+        </attvalues>
+      </edge>
+      <edge source="curiosity" target="cluster_1" id="34" weight="38">
+        <attvalues>
+          <attvalue for="1" value="associated_with" />
+        </attvalues>
+      </edge>
+      <edge source="curiosity" target="cluster_7" id="35" weight="22">
+        <attvalues>
+          <attvalue for="1" value="associated_with" />
+        </attvalues>
+      </edge>
+      <edge source="curiosity" target="cluster_8" id="36" weight="30">
+        <attvalues>
+          <attvalue for="1" value="associated_with" />
+        </attvalues>
+      </edge>
+      <edge source="curiosity" target="cluster_2" id="37" weight="70">
+        <attvalues>
+          <attvalue for="1" value="associated_with" />
+        </attvalues>
+      </edge>
+      <edge source="curiosity" target="cluster_10" id="38" weight="15">
+        <attvalues>
+          <attvalue for="1" value="associated_with" />
+        </attvalues>
+      </edge>
+      <edge source="curiosity" target="cluster_9" id="39" weight="35">
+        <attvalues>
+          <attvalue for="1" value="associated_with" />
+        </attvalues>
+      </edge>
+      <edge source="curiosity" target="cluster_4" id="40" weight="27">
+        <attvalues>
+          <attvalue for="1" value="associated_with" />
+        </attvalues>
+      </edge>
+      <edge source="neutral" target="king" id="41" weight="56">
+        <attvalues>
+          <attvalue for="1" value="expresses" />
+        </attvalues>
+      </edge>
+      <edge source="neutral" target="conceited_man" id="42" weight="9">
+        <attvalues>
+          <attvalue for="1" value="expresses" />
+        </attvalues>
+      </edge>
+      <edge source="neutral" target="businessman" id="43" weight="41">
+        <attvalues>
+          <attvalue for="1" value="expresses" />
+        </attvalues>
+      </edge>
+      <edge source="neutral" target="drunkard" id="44" weight="18">
+        <attvalues>
+          <attvalue for="1" value="expresses" />
+        </attvalues>
+      </edge>
+      <edge source="neutral" target="geographer" id="45" weight="39">
+        <attvalues>
+          <attvalue for="1" value="expresses" />
+        </attvalues>
+      </edge>
+      <edge source="neutral" target="switchman" id="46" weight="13">
+        <attvalues>
+          <attvalue for="1" value="expresses" />
+        </attvalues>
+      </edge>
+      <edge source="neutral" target="merchant" id="47" weight="4">
+        <attvalues>
+          <attvalue for="1" value="expresses" />
+        </attvalues>
+      </edge>
+      <edge source="neutral" target="cluster_0" id="48" weight="38">
+        <attvalues>
+          <attvalue for="1" value="associated_with" />
+        </attvalues>
+      </edge>
+      <edge source="neutral" target="cluster_10" id="49" weight="45">
+        <attvalues>
+          <attvalue for="1" value="associated_with" />
+        </attvalues>
+      </edge>
+      <edge source="neutral" target="cluster_11" id="50" weight="57">
+        <attvalues>
+          <attvalue for="1" value="associated_with" />
+        </attvalues>
+      </edge>
+      <edge source="neutral" target="cluster_3" id="51" weight="54">
+        <attvalues>
+          <attvalue for="1" value="associated_with" />
+        </attvalues>
+      </edge>
+      <edge source="neutral" target="cluster_5" id="52" weight="19">
+        <attvalues>
+          <attvalue for="1" value="associated_with" />
+        </attvalues>
+      </edge>
+      <edge source="neutral" target="cluster_2" id="53" weight="79">
+        <attvalues>
+          <attvalue for="1" value="associated_with" />
+        </attvalues>
+      </edge>
+      <edge source="neutral" target="cluster_1" id="54" weight="29">
+        <attvalues>
+          <attvalue for="1" value="associated_with" />
+        </attvalues>
+      </edge>
+      <edge source="neutral" target="cluster_8" id="55" weight="37">
+        <attvalues>
+          <attvalue for="1" value="associated_with" />
+        </attvalues>
+      </edge>
+      <edge source="neutral" target="cluster_6" id="56" weight="10">
+        <attvalues>
+          <attvalue for="1" value="associated_with" />
+        </attvalues>
+      </edge>
+      <edge source="neutral" target="cluster_9" id="57" weight="23">
+        <attvalues>
+          <attvalue for="1" value="associated_with" />
+        </attvalues>
+      </edge>
+      <edge source="neutral" target="cluster_4" id="58" weight="28">
+        <attvalues>
+          <attvalue for="1" value="associated_with" />
+        </attvalues>
+      </edge>
+      <edge source="neutral" target="cluster_7" id="59" weight="18">
+        <attvalues>
+          <attvalue for="1" value="associated_with" />
+        </attvalues>
+      </edge>
+      <edge source="joy" target="conceited_man" id="60" weight="3">
+        <attvalues>
+          <attvalue for="1" value="expresses" />
+        </attvalues>
+      </edge>
+      <edge source="joy" target="drunkard" id="61" weight="1">
+        <attvalues>
+          <attvalue for="1" value="expresses" />
+        </attvalues>
+      </edge>
+      <edge source="joy" target="businessman" id="62" weight="2">
+        <attvalues>
+          <attvalue for="1" value="expresses" />
+        </attvalues>
+      </edge>
+      <edge source="joy" target="king" id="63" weight="1">
+        <attvalues>
+          <attvalue for="1" value="expresses" />
+        </attvalues>
+      </edge>
+      <edge source="joy" target="cluster_7" id="64" weight="1">
+        <attvalues>
+          <attvalue for="1" value="associated_with" />
+        </attvalues>
+      </edge>
+      <edge source="joy" target="cluster_3" id="65" weight="7">
+        <attvalues>
+          <attvalue for="1" value="associated_with" />
+        </attvalues>
+      </edge>
+      <edge source="joy" target="cluster_2" id="66" weight="2">
+        <attvalues>
+          <attvalue for="1" value="associated_with" />
+        </attvalues>
+      </edge>
+      <edge source="joy" target="cluster_8" id="67" weight="2">
+        <attvalues>
+          <attvalue for="1" value="associated_with" />
+        </attvalues>
+      </edge>
+      <edge source="joy" target="cluster_9" id="68" weight="1">
+        <attvalues>
+          <attvalue for="1" value="associated_with" />
+        </attvalues>
+      </edge>
+      <edge source="joy" target="cluster_1" id="69" weight="1">
+        <attvalues>
+          <attvalue for="1" value="associated_with" />
+        </attvalues>
+      </edge>
+      <edge source="love" target="rose" id="70" weight="102">
+        <attvalues>
+          <attvalue for="1" value="expresses" />
+        </attvalues>
+      </edge>
+      <edge source="love" target="fox" id="71" weight="121">
+        <attvalues>
+          <attvalue for="1" value="expresses" />
+        </attvalues>
+      </edge>
+      <edge source="love" target="drunkard" id="72" weight="2">
+        <attvalues>
+          <attvalue for="1" value="expresses" />
+        </attvalues>
+      </edge>
+      <edge source="love" target="businessman" id="73" weight="2">
+        <attvalues>
+          <attvalue for="1" value="expresses" />
+        </attvalues>
+      </edge>
+      <edge source="love" target="king" id="74" weight="1">
+        <attvalues>
+          <attvalue for="1" value="expresses" />
+        </attvalues>
+      </edge>
+      <edge source="love" target="geographer" id="75" weight="1">
+        <attvalues>
+          <attvalue for="1" value="expresses" />
+        </attvalues>
+      </edge>
+      <edge source="love" target="cluster_0" id="76" weight="30">
+        <attvalues>
+          <attvalue for="1" value="associated_with" />
+        </attvalues>
+      </edge>
+      <edge source="love" target="cluster_10" id="77" weight="22">
+        <attvalues>
+          <attvalue for="1" value="associated_with" />
+        </attvalues>
+      </edge>
+      <edge source="love" target="cluster_7" id="78" weight="73">
+        <attvalues>
+          <attvalue for="1" value="associated_with" />
+        </attvalues>
+      </edge>
+      <edge source="love" target="cluster_2" id="79" weight="24">
+        <attvalues>
+          <attvalue for="1" value="associated_with" />
+        </attvalues>
+      </edge>
+      <edge source="love" target="cluster_11" id="80" weight="45">
+        <attvalues>
+          <attvalue for="1" value="associated_with" />
+        </attvalues>
+      </edge>
+      <edge source="love" target="cluster_3" id="81" weight="58">
+        <attvalues>
+          <attvalue for="1" value="associated_with" />
+        </attvalues>
+      </edge>
+      <edge source="love" target="cluster_6" id="82" weight="14">
+        <attvalues>
+          <attvalue for="1" value="associated_with" />
+        </attvalues>
+      </edge>
+      <edge source="love" target="cluster_8" id="83" weight="18">
+        <attvalues>
+          <attvalue for="1" value="associated_with" />
+        </attvalues>
+      </edge>
+      <edge source="love" target="cluster_1" id="84" weight="25">
+        <attvalues>
+          <attvalue for="1" value="associated_with" />
+        </attvalues>
+      </edge>
+      <edge source="love" target="cluster_5" id="85" weight="13">
+        <attvalues>
+          <attvalue for="1" value="associated_with" />
+        </attvalues>
+      </edge>
+      <edge source="love" target="cluster_9" id="86" weight="1">
+        <attvalues>
+          <attvalue for="1" value="associated_with" />
+        </attvalues>
+      </edge>
+      <edge source="love" target="cluster_4" id="87" weight="6">
+        <attvalues>
+          <attvalue for="1" value="associated_with" />
+        </attvalues>
+      </edge>
+      <edge source="rose" target="sadness" id="88" weight="7">
+        <attvalues>
+          <attvalue for="1" value="expresses" />
+        </attvalues>
+      </edge>
+      <edge source="rose" target="cluster_7" id="89" weight="61">
+        <attvalues>
+          <attvalue for="1" value="appears_in" />
+        </attvalues>
+      </edge>
+      <edge source="rose" target="cluster_8" id="90" weight="4">
+        <attvalues>
+          <attvalue for="1" value="appears_in" />
+        </attvalues>
+      </edge>
+      <edge source="rose" target="cluster_3" id="91" weight="13">
+        <attvalues>
+          <attvalue for="1" value="appears_in" />
+        </attvalues>
+      </edge>
+      <edge source="rose" target="cluster_0" id="92" weight="10">
+        <attvalues>
+          <attvalue for="1" value="appears_in" />
+        </attvalues>
+      </edge>
+      <edge source="rose" target="cluster_1" id="93" weight="9">
+        <attvalues>
+          <attvalue for="1" value="appears_in" />
+        </attvalues>
+      </edge>
+      <edge source="rose" target="cluster_11" id="94" weight="9">
+        <attvalues>
+          <attvalue for="1" value="appears_in" />
+        </attvalues>
+      </edge>
+      <edge source="rose" target="cluster_10" id="95" weight="6">
+        <attvalues>
+          <attvalue for="1" value="appears_in" />
+        </attvalues>
+      </edge>
+      <edge source="rose" target="cluster_5" id="96" weight="4">
+        <attvalues>
+          <attvalue for="1" value="appears_in" />
+        </attvalues>
+      </edge>
+      <edge source="rose" target="cluster_6" id="97" weight="11">
+        <attvalues>
+          <attvalue for="1" value="appears_in" />
+        </attvalues>
+      </edge>
+      <edge source="rose" target="cluster_9" id="98" weight="2">
+        <attvalues>
+          <attvalue for="1" value="appears_in" />
+        </attvalues>
+      </edge>
+      <edge source="rose" target="cluster_4" id="99" weight="4">
+        <attvalues>
+          <attvalue for="1" value="appears_in" />
+        </attvalues>
+      </edge>
+      <edge source="rose" target="cluster_2" id="100" weight="1">
+        <attvalues>
+          <attvalue for="1" value="appears_in" />
+        </attvalues>
+      </edge>
+      <edge source="sadness" target="king" id="101" weight="5">
+        <attvalues>
+          <attvalue for="1" value="expresses" />
+        </attvalues>
+      </edge>
+      <edge source="sadness" target="conceited_man" id="102" weight="2">
+        <attvalues>
+          <attvalue for="1" value="expresses" />
+        </attvalues>
+      </edge>
+      <edge source="sadness" target="lamplighter" id="103" weight="24">
+        <attvalues>
+          <attvalue for="1" value="expresses" />
+        </attvalues>
+      </edge>
+      <edge source="sadness" target="businessman" id="104" weight="34">
+        <attvalues>
+          <attvalue for="1" value="expresses" />
+        </attvalues>
+      </edge>
+      <edge source="sadness" target="drunkard" id="105" weight="2">
+        <attvalues>
+          <attvalue for="1" value="expresses" />
+        </attvalues>
+      </edge>
+      <edge source="sadness" target="snake" id="106" weight="2">
+        <attvalues>
+          <attvalue for="1" value="expresses" />
+        </attvalues>
+      </edge>
+      <edge source="sadness" target="cluster_0" id="107" weight="5">
+        <attvalues>
+          <attvalue for="1" value="associated_with" />
+        </attvalues>
+      </edge>
+      <edge source="sadness" target="cluster_10" id="108" weight="9">
+        <attvalues>
+          <attvalue for="1" value="associated_with" />
+        </attvalues>
+      </edge>
+      <edge source="sadness" target="cluster_2" id="109" weight="13">
+        <attvalues>
+          <attvalue for="1" value="associated_with" />
+        </attvalues>
+      </edge>
+      <edge source="sadness" target="cluster_11" id="110" weight="18">
+        <attvalues>
+          <attvalue for="1" value="associated_with" />
+        </attvalues>
+      </edge>
+      <edge source="sadness" target="cluster_5" id="111" weight="8">
+        <attvalues>
+          <attvalue for="1" value="associated_with" />
+        </attvalues>
+      </edge>
+      <edge source="sadness" target="cluster_1" id="112" weight="11">
+        <attvalues>
+          <attvalue for="1" value="associated_with" />
+        </attvalues>
+      </edge>
+      <edge source="sadness" target="cluster_3" id="113" weight="26">
+        <attvalues>
+          <attvalue for="1" value="associated_with" />
+        </attvalues>
+      </edge>
+      <edge source="sadness" target="cluster_8" id="114" weight="16">
+        <attvalues>
+          <attvalue for="1" value="associated_with" />
+        </attvalues>
+      </edge>
+      <edge source="sadness" target="cluster_9" id="115" weight="15">
+        <attvalues>
+          <attvalue for="1" value="associated_with" />
+        </attvalues>
+      </edge>
+      <edge source="sadness" target="cluster_7" id="116" weight="10">
+        <attvalues>
+          <attvalue for="1" value="associated_with" />
+        </attvalues>
+      </edge>
+      <edge source="sadness" target="cluster_6" id="117" weight="1">
+        <attvalues>
+          <attvalue for="1" value="associated_with" />
+        </attvalues>
+      </edge>
+      <edge source="king" target="anger" id="118" weight="16">
+        <attvalues>
+          <attvalue for="1" value="expresses" />
+        </attvalues>
+      </edge>
+      <edge source="king" target="fear" id="119" weight="2">
+        <attvalues>
+          <attvalue for="1" value="expresses" />
+        </attvalues>
+      </edge>
+      <edge source="king" target="cluster_2" id="120" weight="54">
+        <attvalues>
+          <attvalue for="1" value="appears_in" />
+        </attvalues>
+      </edge>
+      <edge source="king" target="cluster_11" id="121" weight="12">
+        <attvalues>
+          <attvalue for="1" value="appears_in" />
+        </attvalues>
+      </edge>
+      <edge source="king" target="cluster_3" id="122" weight="1">
+        <attvalues>
+          <attvalue for="1" value="appears_in" />
+        </attvalues>
+      </edge>
+      <edge source="king" target="cluster_10" id="123" weight="5">
+        <attvalues>
+          <attvalue for="1" value="appears_in" />
+        </attvalues>
+      </edge>
+      <edge source="king" target="cluster_6" id="124" weight="13">
+        <attvalues>
+          <attvalue for="1" value="appears_in" />
+        </attvalues>
+      </edge>
+      <edge source="king" target="cluster_9" id="125" weight="3">
+        <attvalues>
+          <attvalue for="1" value="appears_in" />
+        </attvalues>
+      </edge>
+      <edge source="king" target="cluster_8" id="126" weight="3">
+        <attvalues>
+          <attvalue for="1" value="appears_in" />
+        </attvalues>
+      </edge>
+      <edge source="king" target="cluster_0" id="127" weight="3">
+        <attvalues>
+          <attvalue for="1" value="appears_in" />
+        </attvalues>
+      </edge>
+      <edge source="king" target="cluster_1" id="128" weight="2">
+        <attvalues>
+          <attvalue for="1" value="appears_in" />
+        </attvalues>
+      </edge>
+      <edge source="king" target="cluster_7" id="129" weight="1">
+        <attvalues>
+          <attvalue for="1" value="appears_in" />
+        </attvalues>
+      </edge>
+      <edge source="anger" target="cluster_3" id="130" weight="1">
+        <attvalues>
+          <attvalue for="1" value="associated_with" />
+        </attvalues>
+      </edge>
+      <edge source="anger" target="cluster_2" id="131" weight="13">
+        <attvalues>
+          <attvalue for="1" value="associated_with" />
+        </attvalues>
+      </edge>
+      <edge source="anger" target="cluster_9" id="132" weight="1">
+        <attvalues>
+          <attvalue for="1" value="associated_with" />
+        </attvalues>
+      </edge>
+      <edge source="anger" target="cluster_6" id="133" weight="1">
+        <attvalues>
+          <attvalue for="1" value="associated_with" />
+        </attvalues>
+      </edge>
+      <edge source="conceited_man" target="cluster_2" id="134" weight="1">
+        <attvalues>
+          <attvalue for="1" value="appears_in" />
+        </attvalues>
+      </edge>
+      <edge source="conceited_man" target="cluster_3" id="135" weight="8">
+        <attvalues>
+          <attvalue for="1" value="appears_in" />
+        </attvalues>
+      </edge>
+      <edge source="conceited_man" target="cluster_6" id="136" weight="4">
+        <attvalues>
+          <attvalue for="1" value="appears_in" />
+        </attvalues>
+      </edge>
+      <edge source="conceited_man" target="cluster_0" id="137" weight="1">
+        <attvalues>
+          <attvalue for="1" value="appears_in" />
+        </attvalues>
+      </edge>
+      <edge source="conceited_man" target="cluster_5" id="138" weight="3">
+        <attvalues>
+          <attvalue for="1" value="appears_in" />
+        </attvalues>
+      </edge>
+      <edge source="conceited_man" target="cluster_11" id="139" weight="1">
+        <attvalues>
+          <attvalue for="1" value="appears_in" />
+        </attvalues>
+      </edge>
+      <edge source="conceited_man" target="cluster_10" id="140" weight="2">
+        <attvalues>
+          <attvalue for="1" value="appears_in" />
+        </attvalues>
+      </edge>
+      <edge source="conceited_man" target="cluster_8" id="141" weight="1">
+        <attvalues>
+          <attvalue for="1" value="appears_in" />
+        </attvalues>
+      </edge>
+      <edge source="conceited_man" target="cluster_1" id="142" weight="1">
+        <attvalues>
+          <attvalue for="1" value="appears_in" />
+        </attvalues>
+      </edge>
+      <edge source="businessman" target="cluster_9" id="143" weight="57">
+        <attvalues>
+          <attvalue for="1" value="appears_in" />
+        </attvalues>
+      </edge>
+      <edge source="businessman" target="cluster_10" id="144" weight="6">
+        <attvalues>
+          <attvalue for="1" value="appears_in" />
+        </attvalues>
+      </edge>
+      <edge source="businessman" target="cluster_2" id="145" weight="2">
+        <attvalues>
+          <attvalue for="1" value="appears_in" />
+        </attvalues>
+      </edge>
+      <edge source="businessman" target="cluster_11" id="146" weight="18">
+        <attvalues>
+          <attvalue for="1" value="appears_in" />
+        </attvalues>
+      </edge>
+      <edge source="businessman" target="cluster_3" id="147" weight="22">
+        <attvalues>
+          <attvalue for="1" value="appears_in" />
+        </attvalues>
+      </edge>
+      <edge source="businessman" target="cluster_6" id="148" weight="16">
+        <attvalues>
+          <attvalue for="1" value="appears_in" />
+        </attvalues>
+      </edge>
+      <edge source="businessman" target="cluster_7" id="149" weight="4">
+        <attvalues>
+          <attvalue for="1" value="appears_in" />
+        </attvalues>
+      </edge>
+      <edge source="businessman" target="cluster_0" id="150" weight="1">
+        <attvalues>
+          <attvalue for="1" value="appears_in" />
+        </attvalues>
+      </edge>
+      <edge source="businessman" target="cluster_1" id="151" weight="2">
+        <attvalues>
+          <attvalue for="1" value="appears_in" />
+        </attvalues>
+      </edge>
+      <edge source="businessman" target="cluster_8" id="152" weight="3">
+        <attvalues>
+          <attvalue for="1" value="appears_in" />
+        </attvalues>
+      </edge>
+      <edge source="drunkard" target="cluster_10" id="153" weight="11">
+        <attvalues>
+          <attvalue for="1" value="appears_in" />
+        </attvalues>
+      </edge>
+      <edge source="drunkard" target="cluster_3" id="154" weight="12">
+        <attvalues>
+          <attvalue for="1" value="appears_in" />
+        </attvalues>
+      </edge>
+      <edge source="drunkard" target="cluster_6" id="155" weight="1">
+        <attvalues>
+          <attvalue for="1" value="appears_in" />
+        </attvalues>
+      </edge>
+      <edge source="drunkard" target="cluster_11" id="156" weight="3">
+        <attvalues>
+          <attvalue for="1" value="appears_in" />
+        </attvalues>
+      </edge>
+      <edge source="drunkard" target="cluster_7" id="157" weight="1">
+        <attvalues>
+          <attvalue for="1" value="appears_in" />
+        </attvalues>
+      </edge>
+      <edge source="drunkard" target="cluster_0" id="158" weight="1">
+        <attvalues>
+          <attvalue for="1" value="appears_in" />
+        </attvalues>
+      </edge>
+      <edge source="drunkard" target="cluster_9" id="159" weight="1">
+        <attvalues>
+          <attvalue for="1" value="appears_in" />
+        </attvalues>
+      </edge>
+      <edge source="lamplighter" target="cluster_8" id="160" weight="14">
+        <attvalues>
+          <attvalue for="1" value="appears_in" />
+        </attvalues>
+      </edge>
+      <edge source="lamplighter" target="cluster_1" id="161" weight="7">
+        <attvalues>
+          <attvalue for="1" value="appears_in" />
+        </attvalues>
+      </edge>
+      <edge source="lamplighter" target="cluster_10" id="162" weight="4">
+        <attvalues>
+          <attvalue for="1" value="appears_in" />
+        </attvalues>
+      </edge>
+      <edge source="lamplighter" target="cluster_6" id="163" weight="3">
+        <attvalues>
+          <attvalue for="1" value="appears_in" />
+        </attvalues>
+      </edge>
+      <edge source="lamplighter" target="cluster_11" id="164" weight="5">
+        <attvalues>
+          <attvalue for="1" value="appears_in" />
+        </attvalues>
+      </edge>
+      <edge source="lamplighter" target="cluster_5" id="165" weight="2">
+        <attvalues>
+          <attvalue for="1" value="appears_in" />
+        </attvalues>
+      </edge>
+      <edge source="lamplighter" target="cluster_3" id="166" weight="3">
+        <attvalues>
+          <attvalue for="1" value="appears_in" />
+        </attvalues>
+      </edge>
+      <edge source="geographer" target="cluster_4" id="167" weight="44">
+        <attvalues>
+          <attvalue for="1" value="appears_in" />
+        </attvalues>
+      </edge>
+      <edge source="geographer" target="cluster_5" id="168" weight="6">
+        <attvalues>
+          <attvalue for="1" value="appears_in" />
+        </attvalues>
+      </edge>
+      <edge source="geographer" target="cluster_11" id="169" weight="4">
+        <attvalues>
+          <attvalue for="1" value="appears_in" />
+        </attvalues>
+      </edge>
+      <edge source="geographer" target="cluster_7" id="170" weight="6">
+        <attvalues>
+          <attvalue for="1" value="appears_in" />
+        </attvalues>
+      </edge>
+      <edge source="geographer" target="cluster_6" id="171" weight="8">
+        <attvalues>
+          <attvalue for="1" value="appears_in" />
+        </attvalues>
+      </edge>
+      <edge source="geographer" target="cluster_0" id="172" weight="1">
+        <attvalues>
+          <attvalue for="1" value="appears_in" />
+        </attvalues>
+      </edge>
+      <edge source="geographer" target="cluster_3" id="173" weight="1">
+        <attvalues>
+          <attvalue for="1" value="appears_in" />
+        </attvalues>
+      </edge>
+      <edge source="snake" target="fear" id="174" weight="68">
+        <attvalues>
+          <attvalue for="1" value="expresses" />
+        </attvalues>
+      </edge>
+      <edge source="snake" target="cluster_0" id="175" weight="23">
+        <attvalues>
+          <attvalue for="1" value="appears_in" />
+        </attvalues>
+      </edge>
+      <edge source="snake" target="cluster_10" id="176" weight="10">
+        <attvalues>
+          <attvalue for="1" value="appears_in" />
+        </attvalues>
+      </edge>
+      <edge source="snake" target="cluster_6" id="177" weight="3">
+        <attvalues>
+          <attvalue for="1" value="appears_in" />
+        </attvalues>
+      </edge>
+      <edge source="snake" target="cluster_3" id="178" weight="11">
+        <attvalues>
+          <attvalue for="1" value="appears_in" />
+        </attvalues>
+      </edge>
+      <edge source="snake" target="cluster_11" id="179" weight="11">
+        <attvalues>
+          <attvalue for="1" value="appears_in" />
+        </attvalues>
+      </edge>
+      <edge source="snake" target="cluster_5" id="180" weight="7">
+        <attvalues>
+          <attvalue for="1" value="appears_in" />
+        </attvalues>
+      </edge>
+      <edge source="snake" target="cluster_9" id="181" weight="4">
+        <attvalues>
+          <attvalue for="1" value="appears_in" />
+        </attvalues>
+      </edge>
+      <edge source="snake" target="cluster_1" id="182" weight="1">
+        <attvalues>
+          <attvalue for="1" value="appears_in" />
+        </attvalues>
+      </edge>
+      <edge source="snake" target="cluster_8" id="183" weight="2">
+        <attvalues>
+          <attvalue for="1" value="appears_in" />
+        </attvalues>
+      </edge>
+      <edge source="fear" target="cluster_0" id="184" weight="24">
+        <attvalues>
+          <attvalue for="1" value="associated_with" />
+        </attvalues>
+      </edge>
+      <edge source="fear" target="cluster_2" id="185" weight="5">
+        <attvalues>
+          <attvalue for="1" value="associated_with" />
+        </attvalues>
+      </edge>
+      <edge source="fear" target="cluster_10" id="186" weight="11">
+        <attvalues>
+          <attvalue for="1" value="associated_with" />
+        </attvalues>
+      </edge>
+      <edge source="fear" target="cluster_8" id="187" weight="3">
+        <attvalues>
+          <attvalue for="1" value="associated_with" />
+        </attvalues>
+      </edge>
+      <edge source="fear" target="cluster_6" id="188" weight="2">
+        <attvalues>
+          <attvalue for="1" value="associated_with" />
+        </attvalues>
+      </edge>
+      <edge source="fear" target="cluster_3" id="189" weight="11">
+        <attvalues>
+          <attvalue for="1" value="associated_with" />
+        </attvalues>
+      </edge>
+      <edge source="fear" target="cluster_11" id="190" weight="12">
+        <attvalues>
+          <attvalue for="1" value="associated_with" />
+        </attvalues>
+      </edge>
+      <edge source="fear" target="cluster_5" id="191" weight="7">
+        <attvalues>
+          <attvalue for="1" value="associated_with" />
+        </attvalues>
+      </edge>
+      <edge source="fear" target="cluster_9" id="192" weight="4">
+        <attvalues>
+          <attvalue for="1" value="associated_with" />
+        </attvalues>
+      </edge>
+      <edge source="fear" target="cluster_1" id="193" weight="1">
+        <attvalues>
+          <attvalue for="1" value="associated_with" />
+        </attvalues>
+      </edge>
+      <edge source="fox" target="cluster_3" id="194" weight="32">
+        <attvalues>
+          <attvalue for="1" value="appears_in" />
+        </attvalues>
+      </edge>
+      <edge source="fox" target="cluster_0" id="195" weight="14">
+        <attvalues>
+          <attvalue for="1" value="appears_in" />
+        </attvalues>
+      </edge>
+      <edge source="fox" target="cluster_11" id="196" weight="24">
+        <attvalues>
+          <attvalue for="1" value="appears_in" />
+        </attvalues>
+      </edge>
+      <edge source="fox" target="cluster_6" id="197" weight="6">
+        <attvalues>
+          <attvalue for="1" value="appears_in" />
+        </attvalues>
+      </edge>
+      <edge source="fox" target="cluster_4" id="198" weight="1">
+        <attvalues>
+          <attvalue for="1" value="appears_in" />
+        </attvalues>
+      </edge>
+      <edge source="fox" target="cluster_5" id="199" weight="7">
+        <attvalues>
+          <attvalue for="1" value="appears_in" />
+        </attvalues>
+      </edge>
+      <edge source="fox" target="cluster_2" id="200" weight="1">
+        <attvalues>
+          <attvalue for="1" value="appears_in" />
+        </attvalues>
+      </edge>
+      <edge source="fox" target="cluster_1" id="201" weight="16">
+        <attvalues>
+          <attvalue for="1" value="appears_in" />
+        </attvalues>
+      </edge>
+      <edge source="fox" target="cluster_8" id="202" weight="9">
+        <attvalues>
+          <attvalue for="1" value="appears_in" />
+        </attvalues>
+      </edge>
+      <edge source="fox" target="cluster_7" id="203" weight="5">
+        <attvalues>
+          <attvalue for="1" value="appears_in" />
+        </attvalues>
+      </edge>
+      <edge source="fox" target="cluster_10" id="204" weight="7">
+        <attvalues>
+          <attvalue for="1" value="appears_in" />
+        </attvalues>
+      </edge>
+      <edge source="switchman" target="cluster_4" id="205" weight="1">
+        <attvalues>
+          <attvalue for="1" value="appears_in" />
+        </attvalues>
+      </edge>
+      <edge source="switchman" target="cluster_10" id="206" weight="5">
+        <attvalues>
+          <attvalue for="1" value="appears_in" />
+        </attvalues>
+      </edge>
+      <edge source="switchman" target="cluster_1" id="207" weight="2">
+        <attvalues>
+          <attvalue for="1" value="appears_in" />
+        </attvalues>
+      </edge>
+      <edge source="switchman" target="cluster_11" id="208" weight="3">
+        <attvalues>
+          <attvalue for="1" value="appears_in" />
+        </attvalues>
+      </edge>
+      <edge source="switchman" target="cluster_0" id="209" weight="3">
+        <attvalues>
+          <attvalue for="1" value="appears_in" />
+        </attvalues>
+      </edge>
+      <edge source="switchman" target="cluster_3" id="210" weight="1">
+        <attvalues>
+          <attvalue for="1" value="appears_in" />
+        </attvalues>
+      </edge>
+      <edge source="switchman" target="cluster_8" id="211" weight="1">
+        <attvalues>
+          <attvalue for="1" value="appears_in" />
+        </attvalues>
+      </edge>
+      <edge source="merchant" target="cluster_1" id="212" weight="2">
+        <attvalues>
+          <attvalue for="1" value="appears_in" />
+        </attvalues>
+      </edge>
+      <edge source="merchant" target="cluster_8" id="213" weight="2">
+        <attvalues>
+          <attvalue for="1" value="appears_in" />
+        </attvalues>
+      </edge>
+      <edge source="merchant" target="cluster_6" id="214" weight="1">
+        <attvalues>
+          <attvalue for="1" value="appears_in" />
+        </attvalues>
+      </edge>
+    </edges>
+  </graph>
+</gexf>

@@ -1,0 +1,958 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd"><key id="d2" for="edge" attr.name="weight" attr.type="long"/>
+<key id="d1" for="edge" attr.name="relation" attr.type="string"/>
+<key id="d0" for="node" attr.name="node_type" attr.type="string"/>
+<graph edgedefault="undirected"><node id="little_prince">
+  <data key="d0">character</data>
+</node>
+<node id="curiosity">
+  <data key="d0">emotion</data>
+</node>
+<node id="neutral">
+  <data key="d0">emotion</data>
+</node>
+<node id="joy">
+  <data key="d0">emotion</data>
+</node>
+<node id="love">
+  <data key="d0">emotion</data>
+</node>
+<node id="rose">
+  <data key="d0">character</data>
+</node>
+<node id="sadness">
+  <data key="d0">emotion</data>
+</node>
+<node id="king">
+  <data key="d0">character</data>
+</node>
+<node id="anger">
+  <data key="d0">emotion</data>
+</node>
+<node id="conceited_man">
+  <data key="d0">character</data>
+</node>
+<node id="businessman">
+  <data key="d0">character</data>
+</node>
+<node id="drunkard">
+  <data key="d0">character</data>
+</node>
+<node id="lamplighter">
+  <data key="d0">character</data>
+</node>
+<node id="geographer">
+  <data key="d0">character</data>
+</node>
+<node id="snake">
+  <data key="d0">character</data>
+</node>
+<node id="fear">
+  <data key="d0">emotion</data>
+</node>
+<node id="fox">
+  <data key="d0">character</data>
+</node>
+<node id="switchman">
+  <data key="d0">character</data>
+</node>
+<node id="merchant">
+  <data key="d0">character</data>
+</node>
+<node id="cluster_6">
+  <data key="d0">cluster</data>
+</node>
+<node id="cluster_10">
+  <data key="d0">cluster</data>
+</node>
+<node id="cluster_3">
+  <data key="d0">cluster</data>
+</node>
+<node id="cluster_5">
+  <data key="d0">cluster</data>
+</node>
+<node id="cluster_11">
+  <data key="d0">cluster</data>
+</node>
+<node id="cluster_2">
+  <data key="d0">cluster</data>
+</node>
+<node id="cluster_0">
+  <data key="d0">cluster</data>
+</node>
+<node id="cluster_1">
+  <data key="d0">cluster</data>
+</node>
+<node id="cluster_7">
+  <data key="d0">cluster</data>
+</node>
+<node id="cluster_8">
+  <data key="d0">cluster</data>
+</node>
+<node id="cluster_9">
+  <data key="d0">cluster</data>
+</node>
+<node id="cluster_4">
+  <data key="d0">cluster</data>
+</node>
+<edge source="little_prince" target="curiosity">
+  <data key="d1">expresses</data>
+  <data key="d2">201</data>
+</edge>
+<edge source="little_prince" target="neutral">
+  <data key="d1">expresses</data>
+  <data key="d2">182</data>
+</edge>
+<edge source="little_prince" target="joy">
+  <data key="d1">expresses</data>
+  <data key="d2">6</data>
+</edge>
+<edge source="little_prince" target="love">
+  <data key="d1">expresses</data>
+  <data key="d2">84</data>
+</edge>
+<edge source="little_prince" target="sadness">
+  <data key="d1">expresses</data>
+  <data key="d2">49</data>
+</edge>
+<edge source="little_prince" target="fear">
+  <data key="d1">expresses</data>
+  <data key="d2">7</data>
+</edge>
+<edge source="little_prince" target="cluster_6">
+  <data key="d1">appears_in</data>
+  <data key="d2">12</data>
+</edge>
+<edge source="little_prince" target="cluster_10">
+  <data key="d1">appears_in</data>
+  <data key="d2">37</data>
+</edge>
+<edge source="little_prince" target="cluster_3">
+  <data key="d1">appears_in</data>
+  <data key="d2">63</data>
+</edge>
+<edge source="little_prince" target="cluster_5">
+  <data key="d1">appears_in</data>
+  <data key="d2">33</data>
+</edge>
+<edge source="little_prince" target="cluster_11">
+  <data key="d1">appears_in</data>
+  <data key="d2">42</data>
+</edge>
+<edge source="little_prince" target="cluster_2">
+  <data key="d1">appears_in</data>
+  <data key="d2">147</data>
+</edge>
+<edge source="little_prince" target="cluster_0">
+  <data key="d1">appears_in</data>
+  <data key="d2">40</data>
+</edge>
+<edge source="little_prince" target="cluster_1">
+  <data key="d1">appears_in</data>
+  <data key="d2">56</data>
+</edge>
+<edge source="little_prince" target="cluster_7">
+  <data key="d1">appears_in</data>
+  <data key="d2">35</data>
+</edge>
+<edge source="little_prince" target="cluster_8">
+  <data key="d1">appears_in</data>
+  <data key="d2">41</data>
+</edge>
+<edge source="little_prince" target="cluster_9">
+  <data key="d1">appears_in</data>
+  <data key="d2">13</data>
+</edge>
+<edge source="little_prince" target="cluster_4">
+  <data key="d1">appears_in</data>
+  <data key="d2">10</data>
+</edge>
+<edge source="curiosity" target="king">
+  <data key="d1">expresses</data>
+  <data key="d2">16</data>
+</edge>
+<edge source="curiosity" target="rose">
+  <data key="d1">expresses</data>
+  <data key="d2">25</data>
+</edge>
+<edge source="curiosity" target="conceited_man">
+  <data key="d1">expresses</data>
+  <data key="d2">8</data>
+</edge>
+<edge source="curiosity" target="businessman">
+  <data key="d1">expresses</data>
+  <data key="d2">52</data>
+</edge>
+<edge source="curiosity" target="lamplighter">
+  <data key="d1">expresses</data>
+  <data key="d2">14</data>
+</edge>
+<edge source="curiosity" target="geographer">
+  <data key="d1">expresses</data>
+  <data key="d2">30</data>
+</edge>
+<edge source="curiosity" target="switchman">
+  <data key="d1">expresses</data>
+  <data key="d2">3</data>
+</edge>
+<edge source="curiosity" target="drunkard">
+  <data key="d1">expresses</data>
+  <data key="d2">7</data>
+</edge>
+<edge source="curiosity" target="snake">
+  <data key="d1">expresses</data>
+  <data key="d2">2</data>
+</edge>
+<edge source="curiosity" target="merchant">
+  <data key="d1">expresses</data>
+  <data key="d2">1</data>
+</edge>
+<edge source="curiosity" target="fox">
+  <data key="d1">expresses</data>
+  <data key="d2">1</data>
+</edge>
+<edge source="curiosity" target="cluster_6">
+  <data key="d1">associated_with</data>
+  <data key="d2">58</data>
+</edge>
+<edge source="curiosity" target="cluster_3">
+  <data key="d1">associated_with</data>
+  <data key="d2">28</data>
+</edge>
+<edge source="curiosity" target="cluster_5">
+  <data key="d1">associated_with</data>
+  <data key="d2">21</data>
+</edge>
+<edge source="curiosity" target="cluster_0">
+  <data key="d1">associated_with</data>
+  <data key="d2">34</data>
+</edge>
+<edge source="curiosity" target="cluster_11">
+  <data key="d1">associated_with</data>
+  <data key="d2">18</data>
+</edge>
+<edge source="curiosity" target="cluster_1">
+  <data key="d1">associated_with</data>
+  <data key="d2">38</data>
+</edge>
+<edge source="curiosity" target="cluster_7">
+  <data key="d1">associated_with</data>
+  <data key="d2">22</data>
+</edge>
+<edge source="curiosity" target="cluster_8">
+  <data key="d1">associated_with</data>
+  <data key="d2">30</data>
+</edge>
+<edge source="curiosity" target="cluster_2">
+  <data key="d1">associated_with</data>
+  <data key="d2">70</data>
+</edge>
+<edge source="curiosity" target="cluster_10">
+  <data key="d1">associated_with</data>
+  <data key="d2">15</data>
+</edge>
+<edge source="curiosity" target="cluster_9">
+  <data key="d1">associated_with</data>
+  <data key="d2">35</data>
+</edge>
+<edge source="curiosity" target="cluster_4">
+  <data key="d1">associated_with</data>
+  <data key="d2">27</data>
+</edge>
+<edge source="neutral" target="king">
+  <data key="d1">expresses</data>
+  <data key="d2">56</data>
+</edge>
+<edge source="neutral" target="conceited_man">
+  <data key="d1">expresses</data>
+  <data key="d2">9</data>
+</edge>
+<edge source="neutral" target="businessman">
+  <data key="d1">expresses</data>
+  <data key="d2">41</data>
+</edge>
+<edge source="neutral" target="drunkard">
+  <data key="d1">expresses</data>
+  <data key="d2">18</data>
+</edge>
+<edge source="neutral" target="geographer">
+  <data key="d1">expresses</data>
+  <data key="d2">39</data>
+</edge>
+<edge source="neutral" target="switchman">
+  <data key="d1">expresses</data>
+  <data key="d2">13</data>
+</edge>
+<edge source="neutral" target="merchant">
+  <data key="d1">expresses</data>
+  <data key="d2">4</data>
+</edge>
+<edge source="neutral" target="cluster_0">
+  <data key="d1">associated_with</data>
+  <data key="d2">38</data>
+</edge>
+<edge source="neutral" target="cluster_10">
+  <data key="d1">associated_with</data>
+  <data key="d2">45</data>
+</edge>
+<edge source="neutral" target="cluster_11">
+  <data key="d1">associated_with</data>
+  <data key="d2">57</data>
+</edge>
+<edge source="neutral" target="cluster_3">
+  <data key="d1">associated_with</data>
+  <data key="d2">54</data>
+</edge>
+<edge source="neutral" target="cluster_5">
+  <data key="d1">associated_with</data>
+  <data key="d2">19</data>
+</edge>
+<edge source="neutral" target="cluster_2">
+  <data key="d1">associated_with</data>
+  <data key="d2">79</data>
+</edge>
+<edge source="neutral" target="cluster_1">
+  <data key="d1">associated_with</data>
+  <data key="d2">29</data>
+</edge>
+<edge source="neutral" target="cluster_8">
+  <data key="d1">associated_with</data>
+  <data key="d2">37</data>
+</edge>
+<edge source="neutral" target="cluster_6">
+  <data key="d1">associated_with</data>
+  <data key="d2">10</data>
+</edge>
+<edge source="neutral" target="cluster_9">
+  <data key="d1">associated_with</data>
+  <data key="d2">23</data>
+</edge>
+<edge source="neutral" target="cluster_4">
+  <data key="d1">associated_with</data>
+  <data key="d2">28</data>
+</edge>
+<edge source="neutral" target="cluster_7">
+  <data key="d1">associated_with</data>
+  <data key="d2">18</data>
+</edge>
+<edge source="joy" target="conceited_man">
+  <data key="d1">expresses</data>
+  <data key="d2">3</data>
+</edge>
+<edge source="joy" target="drunkard">
+  <data key="d1">expresses</data>
+  <data key="d2">1</data>
+</edge>
+<edge source="joy" target="businessman">
+  <data key="d1">expresses</data>
+  <data key="d2">2</data>
+</edge>
+<edge source="joy" target="king">
+  <data key="d1">expresses</data>
+  <data key="d2">1</data>
+</edge>
+<edge source="joy" target="cluster_7">
+  <data key="d1">associated_with</data>
+  <data key="d2">1</data>
+</edge>
+<edge source="joy" target="cluster_3">
+  <data key="d1">associated_with</data>
+  <data key="d2">7</data>
+</edge>
+<edge source="joy" target="cluster_2">
+  <data key="d1">associated_with</data>
+  <data key="d2">2</data>
+</edge>
+<edge source="joy" target="cluster_8">
+  <data key="d1">associated_with</data>
+  <data key="d2">2</data>
+</edge>
+<edge source="joy" target="cluster_9">
+  <data key="d1">associated_with</data>
+  <data key="d2">1</data>
+</edge>
+<edge source="joy" target="cluster_1">
+  <data key="d1">associated_with</data>
+  <data key="d2">1</data>
+</edge>
+<edge source="love" target="rose">
+  <data key="d1">expresses</data>
+  <data key="d2">102</data>
+</edge>
+<edge source="love" target="fox">
+  <data key="d1">expresses</data>
+  <data key="d2">121</data>
+</edge>
+<edge source="love" target="drunkard">
+  <data key="d1">expresses</data>
+  <data key="d2">2</data>
+</edge>
+<edge source="love" target="businessman">
+  <data key="d1">expresses</data>
+  <data key="d2">2</data>
+</edge>
+<edge source="love" target="king">
+  <data key="d1">expresses</data>
+  <data key="d2">1</data>
+</edge>
+<edge source="love" target="geographer">
+  <data key="d1">expresses</data>
+  <data key="d2">1</data>
+</edge>
+<edge source="love" target="cluster_0">
+  <data key="d1">associated_with</data>
+  <data key="d2">30</data>
+</edge>
+<edge source="love" target="cluster_10">
+  <data key="d1">associated_with</data>
+  <data key="d2">22</data>
+</edge>
+<edge source="love" target="cluster_7">
+  <data key="d1">associated_with</data>
+  <data key="d2">73</data>
+</edge>
+<edge source="love" target="cluster_2">
+  <data key="d1">associated_with</data>
+  <data key="d2">24</data>
+</edge>
+<edge source="love" target="cluster_11">
+  <data key="d1">associated_with</data>
+  <data key="d2">45</data>
+</edge>
+<edge source="love" target="cluster_3">
+  <data key="d1">associated_with</data>
+  <data key="d2">58</data>
+</edge>
+<edge source="love" target="cluster_6">
+  <data key="d1">associated_with</data>
+  <data key="d2">14</data>
+</edge>
+<edge source="love" target="cluster_8">
+  <data key="d1">associated_with</data>
+  <data key="d2">18</data>
+</edge>
+<edge source="love" target="cluster_1">
+  <data key="d1">associated_with</data>
+  <data key="d2">25</data>
+</edge>
+<edge source="love" target="cluster_5">
+  <data key="d1">associated_with</data>
+  <data key="d2">13</data>
+</edge>
+<edge source="love" target="cluster_9">
+  <data key="d1">associated_with</data>
+  <data key="d2">1</data>
+</edge>
+<edge source="love" target="cluster_4">
+  <data key="d1">associated_with</data>
+  <data key="d2">6</data>
+</edge>
+<edge source="rose" target="sadness">
+  <data key="d1">expresses</data>
+  <data key="d2">7</data>
+</edge>
+<edge source="rose" target="cluster_7">
+  <data key="d1">appears_in</data>
+  <data key="d2">61</data>
+</edge>
+<edge source="rose" target="cluster_8">
+  <data key="d1">appears_in</data>
+  <data key="d2">4</data>
+</edge>
+<edge source="rose" target="cluster_3">
+  <data key="d1">appears_in</data>
+  <data key="d2">13</data>
+</edge>
+<edge source="rose" target="cluster_0">
+  <data key="d1">appears_in</data>
+  <data key="d2">10</data>
+</edge>
+<edge source="rose" target="cluster_1">
+  <data key="d1">appears_in</data>
+  <data key="d2">9</data>
+</edge>
+<edge source="rose" target="cluster_11">
+  <data key="d1">appears_in</data>
+  <data key="d2">9</data>
+</edge>
+<edge source="rose" target="cluster_10">
+  <data key="d1">appears_in</data>
+  <data key="d2">6</data>
+</edge>
+<edge source="rose" target="cluster_5">
+  <data key="d1">appears_in</data>
+  <data key="d2">4</data>
+</edge>
+<edge source="rose" target="cluster_6">
+  <data key="d1">appears_in</data>
+  <data key="d2">11</data>
+</edge>
+<edge source="rose" target="cluster_9">
+  <data key="d1">appears_in</data>
+  <data key="d2">2</data>
+</edge>
+<edge source="rose" target="cluster_4">
+  <data key="d1">appears_in</data>
+  <data key="d2">4</data>
+</edge>
+<edge source="rose" target="cluster_2">
+  <data key="d1">appears_in</data>
+  <data key="d2">1</data>
+</edge>
+<edge source="sadness" target="king">
+  <data key="d1">expresses</data>
+  <data key="d2">5</data>
+</edge>
+<edge source="sadness" target="conceited_man">
+  <data key="d1">expresses</data>
+  <data key="d2">2</data>
+</edge>
+<edge source="sadness" target="lamplighter">
+  <data key="d1">expresses</data>
+  <data key="d2">24</data>
+</edge>
+<edge source="sadness" target="businessman">
+  <data key="d1">expresses</data>
+  <data key="d2">34</data>
+</edge>
+<edge source="sadness" target="drunkard">
+  <data key="d1">expresses</data>
+  <data key="d2">2</data>
+</edge>
+<edge source="sadness" target="snake">
+  <data key="d1">expresses</data>
+  <data key="d2">2</data>
+</edge>
+<edge source="sadness" target="cluster_0">
+  <data key="d1">associated_with</data>
+  <data key="d2">5</data>
+</edge>
+<edge source="sadness" target="cluster_10">
+  <data key="d1">associated_with</data>
+  <data key="d2">9</data>
+</edge>
+<edge source="sadness" target="cluster_2">
+  <data key="d1">associated_with</data>
+  <data key="d2">13</data>
+</edge>
+<edge source="sadness" target="cluster_11">
+  <data key="d1">associated_with</data>
+  <data key="d2">18</data>
+</edge>
+<edge source="sadness" target="cluster_5">
+  <data key="d1">associated_with</data>
+  <data key="d2">8</data>
+</edge>
+<edge source="sadness" target="cluster_1">
+  <data key="d1">associated_with</data>
+  <data key="d2">11</data>
+</edge>
+<edge source="sadness" target="cluster_3">
+  <data key="d1">associated_with</data>
+  <data key="d2">26</data>
+</edge>
+<edge source="sadness" target="cluster_8">
+  <data key="d1">associated_with</data>
+  <data key="d2">16</data>
+</edge>
+<edge source="sadness" target="cluster_9">
+  <data key="d1">associated_with</data>
+  <data key="d2">15</data>
+</edge>
+<edge source="sadness" target="cluster_7">
+  <data key="d1">associated_with</data>
+  <data key="d2">10</data>
+</edge>
+<edge source="sadness" target="cluster_6">
+  <data key="d1">associated_with</data>
+  <data key="d2">1</data>
+</edge>
+<edge source="king" target="anger">
+  <data key="d1">expresses</data>
+  <data key="d2">16</data>
+</edge>
+<edge source="king" target="fear">
+  <data key="d1">expresses</data>
+  <data key="d2">2</data>
+</edge>
+<edge source="king" target="cluster_2">
+  <data key="d1">appears_in</data>
+  <data key="d2">54</data>
+</edge>
+<edge source="king" target="cluster_11">
+  <data key="d1">appears_in</data>
+  <data key="d2">12</data>
+</edge>
+<edge source="king" target="cluster_3">
+  <data key="d1">appears_in</data>
+  <data key="d2">1</data>
+</edge>
+<edge source="king" target="cluster_10">
+  <data key="d1">appears_in</data>
+  <data key="d2">5</data>
+</edge>
+<edge source="king" target="cluster_6">
+  <data key="d1">appears_in</data>
+  <data key="d2">13</data>
+</edge>
+<edge source="king" target="cluster_9">
+  <data key="d1">appears_in</data>
+  <data key="d2">3</data>
+</edge>
+<edge source="king" target="cluster_8">
+  <data key="d1">appears_in</data>
+  <data key="d2">3</data>
+</edge>
+<edge source="king" target="cluster_0">
+  <data key="d1">appears_in</data>
+  <data key="d2">3</data>
+</edge>
+<edge source="king" target="cluster_1">
+  <data key="d1">appears_in</data>
+  <data key="d2">2</data>
+</edge>
+<edge source="king" target="cluster_7">
+  <data key="d1">appears_in</data>
+  <data key="d2">1</data>
+</edge>
+<edge source="anger" target="cluster_3">
+  <data key="d1">associated_with</data>
+  <data key="d2">1</data>
+</edge>
+<edge source="anger" target="cluster_2">
+  <data key="d1">associated_with</data>
+  <data key="d2">13</data>
+</edge>
+<edge source="anger" target="cluster_9">
+  <data key="d1">associated_with</data>
+  <data key="d2">1</data>
+</edge>
+<edge source="anger" target="cluster_6">
+  <data key="d1">associated_with</data>
+  <data key="d2">1</data>
+</edge>
+<edge source="conceited_man" target="cluster_2">
+  <data key="d1">appears_in</data>
+  <data key="d2">1</data>
+</edge>
+<edge source="conceited_man" target="cluster_3">
+  <data key="d1">appears_in</data>
+  <data key="d2">8</data>
+</edge>
+<edge source="conceited_man" target="cluster_6">
+  <data key="d1">appears_in</data>
+  <data key="d2">4</data>
+</edge>
+<edge source="conceited_man" target="cluster_0">
+  <data key="d1">appears_in</data>
+  <data key="d2">1</data>
+</edge>
+<edge source="conceited_man" target="cluster_5">
+  <data key="d1">appears_in</data>
+  <data key="d2">3</data>
+</edge>
+<edge source="conceited_man" target="cluster_11">
+  <data key="d1">appears_in</data>
+  <data key="d2">1</data>
+</edge>
+<edge source="conceited_man" target="cluster_10">
+  <data key="d1">appears_in</data>
+  <data key="d2">2</data>
+</edge>
+<edge source="conceited_man" target="cluster_8">
+  <data key="d1">appears_in</data>
+  <data key="d2">1</data>
+</edge>
+<edge source="conceited_man" target="cluster_1">
+  <data key="d1">appears_in</data>
+  <data key="d2">1</data>
+</edge>
+<edge source="businessman" target="cluster_9">
+  <data key="d1">appears_in</data>
+  <data key="d2">57</data>
+</edge>
+<edge source="businessman" target="cluster_10">
+  <data key="d1">appears_in</data>
+  <data key="d2">6</data>
+</edge>
+<edge source="businessman" target="cluster_2">
+  <data key="d1">appears_in</data>
+  <data key="d2">2</data>
+</edge>
+<edge source="businessman" target="cluster_11">
+  <data key="d1">appears_in</data>
+  <data key="d2">18</data>
+</edge>
+<edge source="businessman" target="cluster_3">
+  <data key="d1">appears_in</data>
+  <data key="d2">22</data>
+</edge>
+<edge source="businessman" target="cluster_6">
+  <data key="d1">appears_in</data>
+  <data key="d2">16</data>
+</edge>
+<edge source="businessman" target="cluster_7">
+  <data key="d1">appears_in</data>
+  <data key="d2">4</data>
+</edge>
+<edge source="businessman" target="cluster_0">
+  <data key="d1">appears_in</data>
+  <data key="d2">1</data>
+</edge>
+<edge source="businessman" target="cluster_1">
+  <data key="d1">appears_in</data>
+  <data key="d2">2</data>
+</edge>
+<edge source="businessman" target="cluster_8">
+  <data key="d1">appears_in</data>
+  <data key="d2">3</data>
+</edge>
+<edge source="drunkard" target="cluster_10">
+  <data key="d1">appears_in</data>
+  <data key="d2">11</data>
+</edge>
+<edge source="drunkard" target="cluster_3">
+  <data key="d1">appears_in</data>
+  <data key="d2">12</data>
+</edge>
+<edge source="drunkard" target="cluster_6">
+  <data key="d1">appears_in</data>
+  <data key="d2">1</data>
+</edge>
+<edge source="drunkard" target="cluster_11">
+  <data key="d1">appears_in</data>
+  <data key="d2">3</data>
+</edge>
+<edge source="drunkard" target="cluster_7">
+  <data key="d1">appears_in</data>
+  <data key="d2">1</data>
+</edge>
+<edge source="drunkard" target="cluster_0">
+  <data key="d1">appears_in</data>
+  <data key="d2">1</data>
+</edge>
+<edge source="drunkard" target="cluster_9">
+  <data key="d1">appears_in</data>
+  <data key="d2">1</data>
+</edge>
+<edge source="lamplighter" target="cluster_8">
+  <data key="d1">appears_in</data>
+  <data key="d2">14</data>
+</edge>
+<edge source="lamplighter" target="cluster_1">
+  <data key="d1">appears_in</data>
+  <data key="d2">7</data>
+</edge>
+<edge source="lamplighter" target="cluster_10">
+  <data key="d1">appears_in</data>
+  <data key="d2">4</data>
+</edge>
+<edge source="lamplighter" target="cluster_6">
+  <data key="d1">appears_in</data>
+  <data key="d2">3</data>
+</edge>
+<edge source="lamplighter" target="cluster_11">
+  <data key="d1">appears_in</data>
+  <data key="d2">5</data>
+</edge>
+<edge source="lamplighter" target="cluster_5">
+  <data key="d1">appears_in</data>
+  <data key="d2">2</data>
+</edge>
+<edge source="lamplighter" target="cluster_3">
+  <data key="d1">appears_in</data>
+  <data key="d2">3</data>
+</edge>
+<edge source="geographer" target="cluster_4">
+  <data key="d1">appears_in</data>
+  <data key="d2">44</data>
+</edge>
+<edge source="geographer" target="cluster_5">
+  <data key="d1">appears_in</data>
+  <data key="d2">6</data>
+</edge>
+<edge source="geographer" target="cluster_11">
+  <data key="d1">appears_in</data>
+  <data key="d2">4</data>
+</edge>
+<edge source="geographer" target="cluster_7">
+  <data key="d1">appears_in</data>
+  <data key="d2">6</data>
+</edge>
+<edge source="geographer" target="cluster_6">
+  <data key="d1">appears_in</data>
+  <data key="d2">8</data>
+</edge>
+<edge source="geographer" target="cluster_0">
+  <data key="d1">appears_in</data>
+  <data key="d2">1</data>
+</edge>
+<edge source="geographer" target="cluster_3">
+  <data key="d1">appears_in</data>
+  <data key="d2">1</data>
+</edge>
+<edge source="snake" target="fear">
+  <data key="d1">expresses</data>
+  <data key="d2">68</data>
+</edge>
+<edge source="snake" target="cluster_0">
+  <data key="d1">appears_in</data>
+  <data key="d2">23</data>
+</edge>
+<edge source="snake" target="cluster_10">
+  <data key="d1">appears_in</data>
+  <data key="d2">10</data>
+</edge>
+<edge source="snake" target="cluster_6">
+  <data key="d1">appears_in</data>
+  <data key="d2">3</data>
+</edge>
+<edge source="snake" target="cluster_3">
+  <data key="d1">appears_in</data>
+  <data key="d2">11</data>
+</edge>
+<edge source="snake" target="cluster_11">
+  <data key="d1">appears_in</data>
+  <data key="d2">11</data>
+</edge>
+<edge source="snake" target="cluster_5">
+  <data key="d1">appears_in</data>
+  <data key="d2">7</data>
+</edge>
+<edge source="snake" target="cluster_9">
+  <data key="d1">appears_in</data>
+  <data key="d2">4</data>
+</edge>
+<edge source="snake" target="cluster_1">
+  <data key="d1">appears_in</data>
+  <data key="d2">1</data>
+</edge>
+<edge source="snake" target="cluster_8">
+  <data key="d1">appears_in</data>
+  <data key="d2">2</data>
+</edge>
+<edge source="fear" target="cluster_0">
+  <data key="d1">associated_with</data>
+  <data key="d2">24</data>
+</edge>
+<edge source="fear" target="cluster_2">
+  <data key="d1">associated_with</data>
+  <data key="d2">5</data>
+</edge>
+<edge source="fear" target="cluster_10">
+  <data key="d1">associated_with</data>
+  <data key="d2">11</data>
+</edge>
+<edge source="fear" target="cluster_8">
+  <data key="d1">associated_with</data>
+  <data key="d2">3</data>
+</edge>
+<edge source="fear" target="cluster_6">
+  <data key="d1">associated_with</data>
+  <data key="d2">2</data>
+</edge>
+<edge source="fear" target="cluster_3">
+  <data key="d1">associated_with</data>
+  <data key="d2">11</data>
+</edge>
+<edge source="fear" target="cluster_11">
+  <data key="d1">associated_with</data>
+  <data key="d2">12</data>
+</edge>
+<edge source="fear" target="cluster_5">
+  <data key="d1">associated_with</data>
+  <data key="d2">7</data>
+</edge>
+<edge source="fear" target="cluster_9">
+  <data key="d1">associated_with</data>
+  <data key="d2">4</data>
+</edge>
+<edge source="fear" target="cluster_1">
+  <data key="d1">associated_with</data>
+  <data key="d2">1</data>
+</edge>
+<edge source="fox" target="cluster_3">
+  <data key="d1">appears_in</data>
+  <data key="d2">32</data>
+</edge>
+<edge source="fox" target="cluster_0">
+  <data key="d1">appears_in</data>
+  <data key="d2">14</data>
+</edge>
+<edge source="fox" target="cluster_11">
+  <data key="d1">appears_in</data>
+  <data key="d2">24</data>
+</edge>
+<edge source="fox" target="cluster_6">
+  <data key="d1">appears_in</data>
+  <data key="d2">6</data>
+</edge>
+<edge source="fox" target="cluster_4">
+  <data key="d1">appears_in</data>
+  <data key="d2">1</data>
+</edge>
+<edge source="fox" target="cluster_5">
+  <data key="d1">appears_in</data>
+  <data key="d2">7</data>
+</edge>
+<edge source="fox" target="cluster_2">
+  <data key="d1">appears_in</data>
+  <data key="d2">1</data>
+</edge>
+<edge source="fox" target="cluster_1">
+  <data key="d1">appears_in</data>
+  <data key="d2">16</data>
+</edge>
+<edge source="fox" target="cluster_8">
+  <data key="d1">appears_in</data>
+  <data key="d2">9</data>
+</edge>
+<edge source="fox" target="cluster_7">
+  <data key="d1">appears_in</data>
+  <data key="d2">5</data>
+</edge>
+<edge source="fox" target="cluster_10">
+  <data key="d1">appears_in</data>
+  <data key="d2">7</data>
+</edge>
+<edge source="switchman" target="cluster_4">
+  <data key="d1">appears_in</data>
+  <data key="d2">1</data>
+</edge>
+<edge source="switchman" target="cluster_10">
+  <data key="d1">appears_in</data>
+  <data key="d2">5</data>
+</edge>
+<edge source="switchman" target="cluster_1">
+  <data key="d1">appears_in</data>
+  <data key="d2">2</data>
+</edge>
+<edge source="switchman" target="cluster_11">
+  <data key="d1">appears_in</data>
+  <data key="d2">3</data>
+</edge>
+<edge source="switchman" target="cluster_0">
+  <data key="d1">appears_in</data>
+  <data key="d2">3</data>
+</edge>
+<edge source="switchman" target="cluster_3">
+  <data key="d1">appears_in</data>
+  <data key="d2">1</data>
+</edge>
+<edge source="switchman" target="cluster_8">
+  <data key="d1">appears_in</data>
+  <data key="d2">1</data>
+</edge>
+<edge source="merchant" target="cluster_1">
+  <data key="d1">appears_in</data>
+  <data key="d2">2</data>
+</edge>
+<edge source="merchant" target="cluster_8">
+  <data key="d1">appears_in</data>
+  <data key="d2">2</data>
+</edge>
+<edge source="merchant" target="cluster_6">
+  <data key="d1">appears_in</data>
+  <data key="d2">1</data>
+</edge>
+</graph></graphml>
